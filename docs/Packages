@@ -1,0 +1,395 @@
+Package: r-cran-boot
+Architecture: all
+Version: 1.3-24-2.r400.1
+Priority: optional
+Section: gnu-r
+Source: boot
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 750
+Depends: r-base-core (>= 3.6.3-2), r-api-4.0
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-boot_1.3-24-2.r400.1_all.deb
+Size: 621588
+MD5sum: 926f942f74317e74e7c865975e5f0229
+SHA1: 74a93c181a4069ac7c1d248b95e21cc21b3f43de
+SHA256: 0fdd5c3f8683dd402bbf0db9a563b808d750fab8e4e7fcc11943b7c184a0a678
+SHA512: 5541f7e9629b1987d66f74d6bd2ee40f91d319630a78978c0629c95c6f55afb6273b9e3002545815043debd300db166f109bd33cba2779cecdd0a91719a32baf
+Homepage: https://cran.r-project.org/package=boot
+Description: GNU R package for bootstrapping functions from Davison and Hinkley
+ This package provides functions and datasets from the book "Bootstrap Methods
+ and Their Applications" by A. C. Davison and D. V. Hinkley (1997, CUP). It was
+ witten by Angelo Canty, and ported to R by Brian Ripley.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-class
+Architecture: amd64
+Version: 7.3-16-1.r400.1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 158
+Depends: r-base-core (>= 3.6.3-2), r-api-4.0, r-cran-mass, libc6 (>= 2.4)
+Replaces: r-cran-vr (<< 7.3-0)
+Filename: ./r-cran-class_7.3-16-1.r400.1_amd64.deb
+Size: 85692
+MD5sum: fa8587e010dbf84227437c6723f93a0c
+SHA1: 5db667c7933a3240e60e67974fc0c454a96d6764
+SHA256: c4ba882866d771a64be963990a7eeac5bc1dc85c649e1d82a70e147879b5e815
+SHA512: b2410ccebc98ac5866d682bc7afcb3fbb3d867125845e403ba76a853d452aca4fa80479664688c7f99e2fe8e0475462a416daec50613707a01811c3b76ba57bd
+Homepage: https://cran.r-project.org/package=class
+Description: GNU R package for classification
+ The class package provides functions and datasets to support chapter
+ 12 on 'Classification' in the book 'Modern Applied Statistics with S'
+ (4th edition) by W.N. Venables and B.D. Ripley. The following URL
+ provides more details about the book:
+ URL: http://www.stats.ox.ac.uk/pub/MASS4
+
+Package: r-cran-cluster
+Architecture: amd64
+Version: 2.1.0-2.r400.1
+Priority: optional
+Section: gnu-r
+Source: cluster
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 700
+Depends: r-base-core (>= 3.6.3-2), r-api-4.0, libc6 (>= 2.29)
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-cluster_2.1.0-2.r400.1_amd64.deb
+Size: 540676
+MD5sum: fbd16d28f0cd3ab895fe09b6673338bd
+SHA1: 465496fb99adce081ca4f5b0f534d36477add78a
+SHA256: 5ec1e44de64aa74419706cd7881efa4526675270b90600c7980e79ca1e8b5436
+SHA512: e74069974da0dc4049a01abf28ef4abd87e910df9c0a62e6bef3c74a61a194aaaeedff6cf1d3b806febf48718fcbe50483fa28b8087f48052715d874c108de39
+Homepage: https://cran.r-project.org/package=cluster
+Description: GNU R package for cluster analysis by Rousseeuw et al
+ This package provides functions and datasets for cluster analysis originally
+ written by Peter Rousseeuw, Anja Struyf and Mia Hubert.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-codetools
+Architecture: all
+Version: 0.2-16-1.r400.1
+Priority: optional
+Section: gnu-r
+Source: codetools
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 120
+Depends: r-base-core (>= 3.6.3-2), r-api-4.0
+Filename: ./r-cran-codetools_0.2-16-1.r400.1_all.deb
+Size: 90964
+MD5sum: 3371252dd90d9454f9771b7ad4243298
+SHA1: 418496e85f5d891a906cef2c7465c2ab012b89e1
+SHA256: 984fa6575f82be265d6926dcdca5b81ce988dcd6fe93dd3a9c1d21f8e9b33cb0
+SHA512: bae927be41a409bd7213f7b6f4c248210277a64cac7f42c54635512ff345e2b19c40abd1968efc95807f8f09690e25d8a59a2a72e37095ff81afe305781ab0b5
+Homepage: https://cran.r-project.org/package=codetools
+Description: GNU R package providing code analysis tools
+ This package provides functions for code analysis for R.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-foreign
+Architecture: amd64
+Version: 0.8.76-1.r400.1
+Priority: optional
+Section: gnu-r
+Source: foreign
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 482
+Depends: libc6 (>= 2.14), r-base-core (>= 3.6.3-2), r-api-4.0
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-foreign_0.8.76-1.r400.1_amd64.deb
+Size: 247012
+MD5sum: 746f2141aaa5e109efe6e80b6e7fe6ca
+SHA1: 12fe6447acfe513d51fed1e5f5b0cb508be731f3
+SHA256: d90b48d9eb009a9a747ddf1d122572b2d6d5d18be1f723277ec870b401b2cdde
+SHA512: 76f39a2f7b96fb0d43713f6e36a6dcd3cc19392dadb7d164778b21dc965891d7b0df394bd070a8e2b702f784146126f7e0b89f8dbd7e9cbfd07ceb2c0e5c5f32
+Homepage: https://cran.r-project.org/package=foreign
+Description: GNU R package to read/write data from other stat. systems
+ This package provides functions for reading and writing data stored by
+ statistical packages such as Minitab, S, SAS, SPSS, Stata, ...
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-kernsmooth
+Architecture: amd64
+Version: 2.23-16-1+1.r400.1
+Priority: optional
+Section: gnu-r
+Source: kernsmooth
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 156
+Depends: r-base-core (>= 3.6.3-2), r-api-4.0, libblas3 | libblas.so.3, libc6 (>= 2.29), r-cran-mass
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-kernsmooth_2.23-16-1+1.r400.1_amd64.deb
+Size: 89468
+MD5sum: b0924c40bf341e5046b94564662b5efe
+SHA1: 9d79c62596bf0f79922f8f24ce490df92aab0b42
+SHA256: eb4ccfed58cb35c7e048c84eef9144cf3301e7949dea9e7c728f917975c9c4c6
+SHA512: cf61bed971d2f3a5c489987103b80a796cde0222397be0d0ef64e6f31ea32b3beca18c8a4ce0792aac5a351a6359a4e92c34b9cfdec1809c0143e0c011eedb80
+Homepage: https://cran.r-project.org/package=KernSmooth
+Description: GNU R package for kernel smoothing and density estimation
+ This package provides functions for kernel smoothing and density estimation
+ corresponding to M.P. Wand and M.C. Jones, "Kernel Smoothing", 1995.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+ .
+ URL: http://www.maths.unsw.edu.au/~wand
+
+Package: r-cran-lattice
+Architecture: amd64
+Version: 0.20-41-1.r400.1
+Priority: optional
+Section: gnu-r
+Source: lattice
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 1355
+Depends: libc6 (>= 2.4), r-base-core (>= 3.6.3-2), r-api-4.0
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-lattice_0.20-41-1.r400.1_amd64.deb
+Size: 1163424
+MD5sum: a2aee3841ab2e8127bfc30de67e4961d
+SHA1: dfbadc845bd38956e45fcd16f6c1239316e66720
+SHA256: 8fc02b90c8acedd3648d0b1ee92b235d6b51fecc71cdbc53311f1a9197f945cb
+SHA512: a1b7fb066e351d54ca8f1adc89e85be1dceeed2aa4859537e454464945e29a638fb9c774078b7c8514a983af9398d4ee037eb18521166bbaf941a6a68f5b298f
+Homepage: https://cran.r-project.org/package=lattice
+Description: GNU R package for 'Trellis' graphics
+ This package provides functions for 'Trellis' graphics -- a framework
+ for data visualization developed at the Bell Labs by Rick Becker, Bill
+ Cleveland et al, extending ideas presented in Bill Cleveland's 1993 book
+ 'Visualizing Data'.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-littler
+Architecture: amd64
+Version: 0.3.9-1.r400.1
+Priority: optional
+Section: gnu-r
+Source: littler
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 2058
+Provides: littler
+Depends: r-base-core (>= 3.6.3-2), r-api-4.0, libc6 (>= 2.14)
+Suggests: r-cran-getopt
+Conflicts: littler (<= 0.2.3-2)
+Replaces: littler
+Filename: ./r-cran-littler_0.3.9-1.r400.1_amd64.deb
+Size: 311560
+MD5sum: 8895c6526fe651044a06163b4983afa3
+SHA1: 1173561f8fc397f56beaae9463d9568eacbdf6fe
+SHA256: 19b0300aebb4e0038544c8668d8e0c912a04e2e7419de9051d0c55a58c27daac
+SHA512: 6bf144bab5d503436f797f8e9ad76405059c2340362e7973e22eb2b8aec3399014a3411820378fa737d9bcd3fef71d07ea3899be81f17c089ce60ba27fed758b
+Homepage: https://cran.r-project.org/package=littler
+Description: GNU R scripting and command-line front-end
+ The 'r' (aka 'littler') program provides a lightweight binary wrapper around
+ the GNU R language and environment for statistical computing and graphics.
+ .
+ While R can be used in batch mode, the r binary adds full support for
+ both 'shebang'-style scripting (i.e. using a  hashmark-exclamation-path
+ expression as the first line in scripts) as well as command-line use in
+ standard Unix pipelines. In other words, r provides the R language without
+ the environment.
+
+Package: r-cran-mass
+Architecture: amd64
+Version: 7.3-51.5-2.r400.1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 1371
+Provides: r-cran-vr
+Depends: r-base-core (>= 3.6.3-2), r-api-4.0, libc6 (>= 2.4)
+Conflicts: r-cran-vr
+Replaces: r-cran-vr
+Filename: ./r-cran-mass_7.3-51.5-2.r400.1_amd64.deb
+Size: 1093860
+MD5sum: 3286714b362d90c26fb12669fee3dedb
+SHA1: 673c00f54eb933604570897f9d9294640da16d93
+SHA256: 906f5fa5308b4b63111e403bb12fe80e5c6b2ecaf1af95aac5c9c72355ddbf5e
+SHA512: 7ada71dbf13fdcc6b9d50ba5bc1a13eb41edcca818a2e816fba3512d38126549a9fa73c32591a430686219be16fc1515c4b894687b221e90c91145b1236221b8
+Homepage: https://cran.r-project.org/package=MASS
+Description: GNU R package of Venables and Ripley's MASS
+ The MASS package provides functions and datasets to support the book
+ 'Modern Applied Statistics with S' (4th edition) by W.N. Venables and
+ B.D. Ripley. The following URL provides more details about the book:
+ URL: http://www.stats.ox.ac.uk/pub/MASS4
+
+Package: r-cran-matrix
+Architecture: amd64
+Version: 1.2-18-1.r400.1
+Priority: optional
+Section: gnu-r
+Source: rmatrix
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 5832
+Depends: libblas3 | libblas.so.3, libc6 (>= 2.29), liblapack3 | liblapack.so.3, r-base-core (>= 3.6.3-2), r-api-4.0, r-cran-lattice
+Filename: ./r-cran-matrix_1.2-18-1.r400.1_amd64.deb
+Size: 3479912
+MD5sum: c7009ee9ab2f90bf17cff44323d4f79a
+SHA1: 40df7daa55971da038e81fac435cd66ea652fea8
+SHA256: cc03c0d3c6fd077c570d9f04d66cde23297f77177d1615fd231033af4ecd1933
+SHA512: 2e6584754a965beaea4454e3bb5dd904b59f86b1dbbd0ee93859b83a31a0eda6167a652c90af3b981a769201ed6d4ffff440da0d6d5fa334dc4ff602f9973fad
+Homepage: https://cran.r-project.org/package=Matrix
+Description: GNU R package of classes for dense and sparse matrices
+ This CRAN package provides S4 classes and methods for numerical
+ linear algebra using dense or sparse matrices.  The sparse matrix
+ implementation uses code from the LDL sparse matrix package and
+ code from the Metis package of partitioning algorithms.
+
+Package: r-cran-mgcv
+Architecture: amd64
+Version: 1.8-31-1.r400.1
+Priority: optional
+Section: gnu-r
+Source: mgcv
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 3139
+Depends: r-base-core (>= 3.6.3-2), r-api-4.0, r-cran-nlme (>= 3.1-64), r-cran-matrix, libblas3 | libblas.so.3, libc6 (>= 2.29), libgomp1 (>= 6), liblapack3 | liblapack.so.3
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-mgcv_1.8-31-1.r400.1_amd64.deb
+Size: 2756540
+MD5sum: c6ea79a344c46a5ff848c0c8dd51d86b
+SHA1: 0bf9895562de4fc947594e2f985cfc3216cbe64f
+SHA256: f0865bebd3c88bd646fa5f9b261b8ca6ee2dcaa702273e357adb2c042adc8251
+SHA512: 87f5569f35c0bf28677e60b57efab4565e1de3c8228b9242b8eed045b6e67b724aab178d13e72e73172b90b0e31aec1864eeddd367d4bc806eda1bfdd352cc2f
+Homepage: https://cran.r-project.org/package=mgcv
+Description: GNU R package for multiple parameter smoothing estimation
+ This package provides functions for generalised additive models (GAMs)
+ and other generalized ridge regression problems with multiple smoothing
+ parameter selection by GCV or UBRE. It includes an implementation (not
+ a clone) of gam().
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-nlme
+Architecture: amd64
+Version: 3.1.147-1.r400.1
+Priority: optional
+Section: gnu-r
+Source: nlme
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 2745
+Depends: r-base-core (>= 3.6.3-2), r-api-4.0, r-cran-lattice (>= 0.12-11.1), libc6 (>= 2.29)
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-nlme_3.1.147-1.r400.1_amd64.deb
+Size: 2222196
+MD5sum: 737b3b6eb6091999a6e976c9c79dd1a2
+SHA1: 8c8296fb00ee0944a41a2ccafde9eeb224ef9633
+SHA256: 3db268e4d4aa901edc9171f3f43558adbcc11f57775fecddd1d6c2c82e42e7d8
+SHA512: effac87b9b27a042ad6e6c5cf14226385979deebb9a8b36d09349b5a2607a6b0a293025e8e1c0ca2cde8ecaae1aa43509f73f938ed48ecedf24fcf57aad24b15
+Homepage: https://cran.r-project.org/package=nlme
+Description: GNU R package for (non-)linear mixed effects models
+ This package provides functions to fit and compare linear and non-linear
+ mixed-effects models.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-nnet
+Architecture: amd64
+Version: 7.3-13-1.r400.1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 185
+Depends: r-base-core (>= 3.6.3-2), r-api-4.0, libc6 (>= 2.4)
+Replaces: r-cran-vr (<< 7.3-0)
+Filename: ./r-cran-nnet_7.3-13-1.r400.1_amd64.deb
+Size: 110436
+MD5sum: 76ce9c4963e00a26fb82269423024d28
+SHA1: 478f9667a1e197d10a6aefa8380f2438c4fe241f
+SHA256: e5673f3b333bc665a4b864a703493b9b7d7ef86c543ec85350a87071dae52d2a
+SHA512: cff975b8a1b6019df1ee4ef6926199b3edb53cb534952735d9f631947164942c203170042c2d45c47376774de438955fdf54420a9f155a5f1f7ce412f820da8d
+Homepage: https://cran.r-project.org/package=nnet
+Description: GNU R package for feed-forward neural networks
+ The nnet package provides functions and datasets to support
+ feed-forward neural networks with a single hidden layer, and
+ multinomial log-linear models, as discussed in the book 'Modern
+ Applied Statistics with S' (4th edition) by W.N. Venables and
+ B.D. Ripley. The following URL provides more details about the book:
+ URL: http://www.stats.ox.ac.uk/pub/MASS4
+
+Package: r-cran-rpart
+Architecture: amd64
+Version: 4.1-15-2.r400.1
+Priority: optional
+Section: gnu-r
+Source: rpart
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 970
+Depends: r-base-core (>= 3.6.3-2), r-api-4.0, libc6 (>= 2.14), r-cran-survival
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-rpart_4.1-15-2.r400.1_amd64.deb
+Size: 702004
+MD5sum: 3f3236431449f409382453a97065ea2d
+SHA1: 8f939783a64fb67c56c1ddf54de22277341b86b7
+SHA256: cdfc1bd2cea69a1a79c7d08a5b14481130cfb1f10ac2346fd7961cada1bb1e0c
+SHA512: 96018658aa3a25d2a2e9dd2ad0b0aeee26fcb8977d7f782350b4eba93f5d5e500ebb4b704e2b1c5d4f5b1ecfcf5279390ade46b20e4965dd662da1c485f6c1e0
+Homepage: https://cran.r-project.org/package=rpart
+Description: GNU R package for recursive partitioning and regression trees
+ This package provides functions to recursive partitioning and regression
+ trees.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+ .
+ URL (of the S-Plus original): http://www.mayo.edu/hsr/Sfunc.html
+
+Package: r-cran-spatial
+Architecture: amd64
+Version: 7.3-11-2.2.r400.1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 232
+Depends: r-base-core (>= 3.6.3-2), r-api-4.0, libc6 (>= 2.4)
+Replaces: r-cran-vr (<< 7.3-0)
+Filename: ./r-cran-spatial_7.3-11-2.2.r400.1_amd64.deb
+Size: 126380
+MD5sum: 20eb1f5cc362c82c41b673c4fc59e29a
+SHA1: 51a76029c2266afce643bd6414ffd50844d42cd2
+SHA256: ff90c04771a234c1290324538663df93a8f09d569e5a4c5dfdc51125927e3d1d
+SHA512: 401e44e3a70591ab40bb5d6636a4517d174d16343cb71fc8d5c0d3cc0e61e09ba0874499a8f26793400b52c7ad5f153da9d8c4a490f49f7fa1eac0ed0b54fac4
+Homepage: https://cran.r-project.org/package=spatial
+Description: GNU R package for spatial statistics
+ The spatial package provides functions and datasets to support
+ chapter 15 on 'Spatial Statistic' in the book 'Modern Applied
+ Statistics with S' (4th edition) by W.N. Venables and
+ B.D. Ripley. The following URL provides more details about the book:
+ URL: http://www.stats.ox.ac.uk/pub/MASS4
+
+Package: r-cran-survival
+Architecture: amd64
+Version: 3.1-12-1.r400.1
+Priority: optional
+Section: gnu-r
+Source: survival
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 8469
+Depends: r-base-core (>= 3.6.3-2), r-api-4.0, r-cran-matrix, libc6 (>= 2.4)
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-survival_3.1-12-1.r400.1_amd64.deb
+Size: 7469792
+MD5sum: 015a4763ba7fe841725f0ce3d6be29ba
+SHA1: 239efe8e166aebe2590fa25784dacabadb4a48f8
+SHA256: 7853816518a22ef9a038065e3f9b358e499a1a3e2dc7e81ec682402dbd213658
+SHA512: 6fb5a58c9bc8b69f0b372293096cd8ffd6fd90cea9bc275f3ba621444ae1736eafddbb5493c6605b2a0324730bec9148e3f482f56fa8d16c67e3d064fa8371ce
+Homepage: https://cran.r-project.org/package=survival
+Description: GNU R package for survival analysis
+ This package provides functions and datasets for survival analysis:
+ descriptive statistics, two-sample tests, parametric accelerated failure
+ models, Cox model. Delayed entry (truncation) is allowed for all models;
+ interval censoring for parametric models.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
