@@ -1,3 +1,46 @@
+Package: python3-rpy2-dbgsym
+Architecture: amd64
+Version: 3.4.4-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: rpy2
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 93
+Depends: python3-rpy2 (= 3.4.4-1)
+Filename: ./python3-rpy2-dbgsym_3.4.4-1_amd64.deb
+Size: 62180
+MD5sum: 971ca68fdf7d06e1571f550c172b93af
+SHA1: 69e3b8ecfcc3b0ca8b4e7fe51ac93d44aa31919e
+SHA256: 5e9f065c7df7bc6081169d089a104334680dc7d187b0432601520819ce0494cc
+SHA512: e7c1aaace4e63eb5a326a172dce0b9d5bae8aceb2ec0532da7b36aced78f97e4ddecd75647c510a51ad74938f26de74f8291af329d225111db174bb031835143
+Description: debug symbols for python3-rpy2
+Build-Ids: 5beb348a0043150088236777c555058870e87a28
+
+Package: python3-rpy2
+Architecture: amd64
+Version: 3.4.4-1
+Priority: optional
+Section: python
+Source: rpy2
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 898
+Provides: python3-rpy2
+Depends: libc6 (>= 2.4), python3 (>= 3~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3-jinja2, python3-tz, python3-tzlocal, python3:any (>= 3.6~), python3-numpy, r-base-core (>= 3.5.0)
+Suggests: python-rpy-docs
+Filename: ./python3-rpy2_3.4.4-1_amd64.deb
+Size: 185848
+MD5sum: d1bef806d717af39d280edc92b4fe8fd
+SHA1: 82c2ec7119d5ee4dc6e6ee9e1ff2c7f1d44db470
+SHA256: 2769fd5be7b9db959e13815d6a1d0814e16b3b56af6c2b491af78d23c9fb5a66
+SHA512: 0c932cc9c4354bbe37c4f7e9bed7b840a1395d7cbda2ddbf59f8c9e3bf7a027434b37910132f3ff3817ef45d512087ddae47699ab4d6077548f431ece6d6c027
+Homepage: https://pypi.org/project/rpy2/
+Description: Python3 interface to the GNU R language and environment (version 2)
+ This Debian package provides RPy2, a very simple yet robust Python interface
+ to the GNU R Programming Language. It can manage different types of R objects,
+ and can execute arbitrary R functions, including graphic functions.
+ Rpy2 is a rewrite and extension of the older RPy interface.
+
 Package: r-base-core-dbg
 Architecture: amd64
 Version: 4.0.5.20210419-1
@@ -811,6 +854,47 @@ Description: GNU R package for recursive partitioning and regression trees
  by R Core and shipped with upstream source releases of R itself.
  .
  URL (of the S-Plus original): http://www.mayo.edu/hsr/Sfunc.html
+
+Package: r-cran-rsymphony-dbgsym
+Architecture: amd64
+Version: 0.1-31-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: rsymphony
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 22
+Depends: r-cran-rsymphony (= 0.1-31-1)
+Filename: ./r-cran-rsymphony-dbgsym_0.1-31-1_amd64.deb
+Size: 8332
+MD5sum: c256e7ceb79afd87aee7a7be60103d2b
+SHA1: 5bc6fe088ce5bd4e30d7b80441e8f72f900ecabe
+SHA256: 953b0bbd4514130259f3924fe609b498c27c098082e6152f0706c7559155f459
+SHA512: b38103f5fdfa03e775dbfde2524f04d30674a9ebea0b67ac260ac270943bd3e8d5573658242dfc633885ffee1d84be28cb3ef97dfed8143c33642b82848b407a
+Description: debug symbols for r-cran-rsymphony
+Build-Ids: 8ed5d5bda3de4c54231bb8ee2759a898badd4ec6
+
+Package: r-cran-rsymphony
+Architecture: amd64
+Version: 0.1-31-1
+Priority: optional
+Section: gnu-r
+Source: rsymphony
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 91
+Depends: coinor-libsymphony3, libc6 (>= 2.14), r-base-core (>= 4.0.4-1), r-api-4.0
+Suggests: r-cran-runit
+Filename: ./r-cran-rsymphony_0.1-31-1_amd64.deb
+Size: 37064
+MD5sum: 9356d61af450c3a90acb1787eda75466
+SHA1: a82771243d3a047fa5541dde4871f7b6cb6d7b88
+SHA256: ed320244af3af2ab6402b68a29175a8ef1490db06af5542e323efe3274691629
+SHA512: bbb00f8ef544e4a707f28aedc7d5fd5f040a88293a36e00ffc91a2243529023b93b9b057442f95db87a71370dd5f45e3bbe1ead5646ef94741407787c98df547
+Homepage: https://cran.r-project.org/package=Rsymphony
+Description: GNU R interface to the SYMPHONY MILP solver
+ Rsymphony provides an interface from GNU R to the SYMPHONY mixed
+ integer linear programming (MILP) solver. More information about
+ SYMPHONY is at http://www.coin-or.org/SYMPHONY/
 
 Package: r-cran-sn
 Architecture: all
