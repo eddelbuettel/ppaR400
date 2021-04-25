@@ -746,6 +746,46 @@ Description: GNU R package for Armadillo C++ linear algebra library
  bindings/bridge to Armadillo) is licensed under the GNU GPL version 2
  or later, as is the rest of Rcpp.
 
+Package: r-cran-rgl-dbgsym
+Architecture: amd64
+Version: 0.106.8-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: rgl
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 1888
+Depends: r-cran-rgl (= 0.106.8-1)
+Filename: ./r-cran-rgl-dbgsym_0.106.8-1_amd64.deb
+Size: 1761668
+MD5sum: 1257b523d03af9463ec532dfc1c8133a
+SHA1: c55cd67326131198094739938e4f228be0e005c2
+SHA256: 91775785e91658c2740cb1d0ba17e6783c006b0f1daa4078c9e99694ebd58841
+SHA512: 724bed4d70a6d65b201c1f2f65a985b6ad0b6f0ab1f7e9a173c0be48e256d2b763e5ad9685abeedd7088d4d6bc410a5042e8fce86a43f3adfee2046a6fe3f53c
+Description: debug symbols for r-cran-rgl
+Build-Ids: 9c641899f6a7565ea3a89d33bc17a21dfd7cac68 d2629037298c2b19ee24718d2aacac214fa017f5
+
+Package: r-cran-rgl
+Architecture: amd64
+Version: 0.106.8-1
+Priority: optional
+Section: gnu-r
+Source: rgl
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 8153
+Depends: libc6 (>= 2.29), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgl1, libglu1-mesa | libglu1, libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 4.9), libx11-6, r-base-core (>= 4.0.4-1), r-api-4.0, r-cran-htmlwidgets, r-cran-htmltools, r-cran-knitr, r-cran-jsonlite (>= 0.9.20), r-cran-shiny, r-cran-magrittr, r-cran-crosstalk, r-cran-manipulatewidgets
+Filename: ./r-cran-rgl_0.106.8-1_amd64.deb
+Size: 3246588
+MD5sum: 966ade3f28767853d637d3a2cdbea7e0
+SHA1: 18a3c6d3ff5925c0dead927115d20d6daf41f8f8
+SHA256: 45fa7212a6ecd7fb9dba041ba7339b3145e648b38a342a44153fffa3ffe283d5
+SHA512: 519f750d2ff69c5be380c331dfe429c62f15c152780e2f6d3d90bd2c7d61847b99bca96366de12358b6e94fe9c3725a03708b1ef58c08e7afb18177994d0f6a2
+Homepage: https://cran.r-project.org/package=rgl
+Description: GNU R package for three-dimensional visualisation using OpenGL
+ This package provides functions implementing a new graphics device suitable
+ for visualisation of GNU R objects in three dimensions using the OpenGL
+ libraries.
+
 Package: r-cran-rpart
 Architecture: amd64
 Version: 4.1-15-2.r400.1
@@ -840,6 +880,54 @@ Description: GNU R package for survival analysis
  .
  This package is part of the set of packages that are 'recommended'
  by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-viridis
+Architecture: all
+Version: 0.6.0-1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 3777
+Depends: r-base-core (>= 4.0.4-1), r-api-4.0, r-cran-viridislite (>= 0.4.0), r-cran-ggplot2 (>= 1.0.1), r-cran-gridextra
+Filename: ./r-cran-viridis_0.6.0-1_all.deb
+Size: 2929648
+MD5sum: f87c46b99c89539f4c0d713e73d6d215
+SHA1: 99e50eb8b121cfabcdd50bcd69cd602b3caf8a81
+SHA256: 0f7ae7880ed144810a8f7a88d5b768d2b612302c018f2512c8f5c0b6101234be
+SHA512: 455a546c6d96ba60e0bd838bf0f9883ae386d3c78bf6c7ba5a7290fe36bb05be8da3d34eb91817214cf781447e14f6069346bc255b1fd2a83d7f73f00355e67b
+Homepage: https://cran.r-project.org/package=viridis
+Description: GNU R package for color maps from matplotlib
+ The viridis package provides a port of the new matplotlib color maps
+ (viridis (default), magma, plasma and inferno) to R. matplotlib
+ <http://matplotlib.org/ is a popular plotting library for
+ Python. These color maps are designed in such a way that they will
+ analytically be perfectly perceptually-uniform, both in regular form
+ and also when converted to black-and-white. They are also designed to
+ be perceived by readers with the most common form of color blindness.
+
+Package: r-cran-viridislite
+Architecture: all
+Version: 0.4.0-1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 1352
+Depends: r-base-core (>= 4.0.4-1), r-api-4.0
+Filename: ./r-cran-viridislite_0.4.0-1_all.deb
+Size: 1298164
+MD5sum: 6b3269ada90a60f340de6e8fbf8eaf1e
+SHA1: e413d6483eb5a46b401725502e0965702064d164
+SHA256: 84786da6ccb80623242f2a9339780de667cd5d52ade68b59966b32c1a8b3e91e
+SHA512: 3263fdcd9d32f2dacf325e374ba518fa0649b3edd28f7ae8dce6662d33727e6ef0c9df40ac2f1a8f0b14e93549eb075ef3295637a43f98234e96b5ab5d12988b
+Homepage: https://cran.r-project.org/package=viridisLite
+Description: GNU R package for color maps from matplotlib (Lite Version)
+ The viridis package provides a port of the new matplotlib color maps
+ (viridis (default), magma, plasma and inferno) to R. matplotlib
+ <http://matplotlib.org/ is a popular plotting library for
+ Python. These color maps are designed in such a way that they will
+ analytically be perfectly perceptually-uniform, both in regular form
+ and also when converted to black-and-white. They are also designed to
+ be perceived by readers with the most common form of color blindness.
 
 Package: r-doc-html
 Architecture: all
