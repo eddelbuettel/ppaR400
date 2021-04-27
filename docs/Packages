@@ -43,19 +43,19 @@ Description: Python3 interface to the GNU R language and environment (version 2)
 
 Package: r-base-core-dbg
 Architecture: amd64
-Version: 4.0.5.20210419-1
+Version: 4.0.5.20210426-1
 Priority: optional
 Section: debug
 Source: r-base
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
-Installed-Size: 7173
-Depends: r-base-core (= 4.0.5.20210419-1), r-base-dev (= 4.0.5.20210419-1)
-Filename: ./r-base-core-dbg_4.0.5.20210419-1_amd64.deb
-Size: 6904664
-MD5sum: c8787580e7cf39c77856f2876f103039
-SHA1: cd3bbcddd6d7af3814f82c4eb2a062094f4c49a1
-SHA256: d6100752d30af1fe274993b1940768afd0c09dd834cbf30d74a70d2f6aed8790
-SHA512: bc338e8bc8f91563739d0b306a1556d5703e164e78f4ec545aab6f64decef878f94625fdad2c618141911a5869dade1814299f5c949407138c7796ca22aaa62f
+Installed-Size: 7174
+Depends: r-base-core (= 4.0.5.20210426-1), r-base-dev (= 4.0.5.20210426-1)
+Filename: ./r-base-core-dbg_4.0.5.20210426-1_amd64.deb
+Size: 6905000
+MD5sum: a4dab203ca10bc3623a0b98177230602
+SHA1: 66e0903acdb8fcb702f7393145e2bbc92bea071d
+SHA256: 508081df461b7c20c6b057a9ded607657b7f8649b875cf6e99ff64854019a4b8
+SHA512: cb9af938156daf19d462485126a1c0e50d57f90b68daa2aa0f14b2f7d70320d691b6237500cd93488afe10b3063c8e65b9da5292bad2805e580334d4231f0421
 Homepage: http://www.r-project.org/
 Description: GNU R debug symbols for statistical comp. language and environment
  R is a system for statistical computation and graphics.  It consists
@@ -85,16 +85,16 @@ Description: GNU R debug symbols for statistical comp. language and environment
  .
  This package contains debugging symbol tables for the binaries and dynamic
  libraries in the r-base-core package.
-Build-Ids: 05d19c639360515017ad99d36c0e1c2f653afedd 289b38bbfcdd3ef01686a4854f4292a916c52968 2ff3416e512a7acd7bab629072148ac1c6539af3 32debb9693d4c5dd38acd016d8374738acd96e00 4c0040167dccc7fe96d40896d5115f3274fc431c 593ba81cbbf9e6ca6de934cae35fe1c843677685 5c2d58b798fa6cdbcd50dbf12e31a9357e862831 7565184cd52260790f20621f5cea27fe6e33782a 776ba5057853b2bcc8930b61a570cc2cdd8c82f2 9182622991205d575cc8a6c4ab6fdaf2f020c545 9fbe04199a95cd3e356c3b0d8f5b8eec4f92420a ae815bb42662ce9875050b07175ddbef6c199f1a bf8c89f93b0b96fbbbb9de137b959392e6d5306b c000d04d3a76f18086ae8ced0a238ecc53ee2d13 ca35a742416111d7888f3159d3e8b26cc54cca74 dc7aa6d091423eb5a94f18dbc534c002adb73084 dc8999f89ef5a7be678bb028acebcfbb6d728b7e f5bc15a668d2eacac6eaf9f858c5efdbafd22dba f62e3d7113acb26570907506f7be9dd065a1ce1a
+Build-Ids: 09ef03a2eea52158ef5b9fa1de038450b53b6228 11455f83344865f6a6e259b5c95a5d8ad71cb6b2 289b38bbfcdd3ef01686a4854f4292a916c52968 2ff3416e512a7acd7bab629072148ac1c6539af3 32debb9693d4c5dd38acd016d8374738acd96e00 515a2ba0fcebef4ff6ac473705e6c14395c398f6 593ba81cbbf9e6ca6de934cae35fe1c843677685 5c2d58b798fa6cdbcd50dbf12e31a9357e862831 7565184cd52260790f20621f5cea27fe6e33782a 776ba5057853b2bcc8930b61a570cc2cdd8c82f2 9182622991205d575cc8a6c4ab6fdaf2f020c545 9fbe04199a95cd3e356c3b0d8f5b8eec4f92420a ae815bb42662ce9875050b07175ddbef6c199f1a c000d04d3a76f18086ae8ced0a238ecc53ee2d13 ca35a742416111d7888f3159d3e8b26cc54cca74 dc7aa6d091423eb5a94f18dbc534c002adb73084 dc8999f89ef5a7be678bb028acebcfbb6d728b7e f5bc15a668d2eacac6eaf9f858c5efdbafd22dba f62e3d7113acb26570907506f7be9dd065a1ce1a
 
 Package: r-base-core
 Architecture: amd64
-Version: 4.0.5.20210419-1
+Version: 4.0.5.20210426-1
 Priority: optional
 Section: gnu-r
 Source: r-base
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
-Installed-Size: 40654
+Installed-Size: 40658
 Provides: r-api-4.0, r-base-latex, r-cran-rcompgen, r-gnome
 Depends: zip, unzip, libpaper-utils, xdg-utils, libblas3 | libblas.so.3, libbz2-1.0, libc6 (>= 2.29), libcairo2 (>= 1.6.0), libcurl4 (>= 7.28.0), libglib2.0-0 (>= 2.12.0), libgomp1 (>= 4.9), libicu67 (>= 67.1-1~), libjpeg62-turbo (>= 1.3.1), liblapack3 | liblapack.so.3, liblzma5 (>= 5.1.1alpha+20120614), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpcre2-8-0 (>= 10.22), libpng16-16 (>= 1.6.2-1), libreadline8 (>= 6.0), libtcl8.6 (>= 8.6.0), libtiff5 (>= 4.0.3), libtk8.6 (>= 8.6.0), libx11-6, libxt6, zlib1g (>= 1:1.1.4), ucf (>= 3.0), ca-certificates
 Recommends: r-recommended, r-base-dev, r-doc-html
@@ -102,12 +102,12 @@ Suggests: elpa-ess, r-doc-info | r-doc-pdf, r-mathlib, r-base-html
 Conflicts: r-base-latex, r-cran-rcompgen, r-gnome
 Breaks: r-bioc-graph (<< 1.62.0-1~), r-cran-bbmle (<< 1.0.20-5~), r-cran-biocmanager (<< 1.30.4+dfsg-2~), r-cran-caret (<< 6.0-84-2~), r-cran-cmprsk (<< 2.2-8-1~), r-cran-coin (<< 1.3-0-1~), r-cran-dendextend (<< 1.12.0+dfsg-1~), r-cran-fields (<< 9.8-3-1~), r-cran-filehash (<< 2.4-2-2~), r-cran-future (<< 1.14.0+dfsg-1~), r-cran-genetics (<< 1.3.8.1.2-1~), r-cran-haplo.stats (<< 1.7.9-4~), r-cran-igraph (<< 1.2.4.1-1~), r-cran-lava (<< 1.6.5-1~), r-cran-libcoin (<< 1.0-4-1~), r-cran-msm (<< 1.6.7-1~), r-cran-permute (<< 0.9-5-1~), r-cran-phangorn (<< 2.5.5-1~), r-cran-popepi (<< 0.4.7-1~), r-cran-recipes (<< 0.1.6-1~), r-cran-sp (<< 1:1.3-1-2~), r-cran-spam (<< 2.2-2-1~), r-cran-units (<< 0.6-3-1~), r-cran-vegan (<< 2.5-5+dfsg-1~), r-cran-zelig (<< 5.1.6.1-1~)
 Replaces: r-base (<= 1.4.1-1), r-base-latex (<= 2.9.2-4), r-cran-rcompgen (<= 0.1-17-1), r-gnome (<= 2.3.1), r-recommended (<< 1.9.0)
-Filename: ./r-base-core_4.0.5.20210419-1_amd64.deb
-Size: 25697536
-MD5sum: d1729f0ebb8247f76b6a8eef922768dd
-SHA1: e26037e8e3463ea41841fecd34d1937e78b68efc
-SHA256: ace4e6f1026a6ecd187a60dcddf7c659dd55fd7182aaf5a0c599e98efef6deee
-SHA512: 7cd89b8954c5558c81abd33eae08d4fe2a58eef67bc3f51ed1bd858a6ef6ff879f0b041922343e00e1b25bd496dfa893fe9c389070e398784b5b8a97d1df58a1
+Filename: ./r-base-core_4.0.5.20210426-1_amd64.deb
+Size: 25703440
+MD5sum: 53edbf40171d05d96e3e59ac3a57b3f6
+SHA1: 004dedbe7b0c5b9ee138276a9dc18be9d7da845f
+SHA256: 8861c5697c9d0008c613dbae86be730cc773a1f43652fb2a4debd93b6327909a
+SHA512: 5096f0349172f18ea43cdd7ba426510f5e104fec5bfa43859e7d1de6a7958349e0863c8981be85165234c252ac2d1760392a211213085fde97beb49f44291e54
 Homepage: http://www.r-project.org/
 Description: GNU R core of statistical computation and graphics system
  R is a system for statistical computation and graphics.  It consists
@@ -141,20 +141,20 @@ Description: GNU R core of statistical computation and graphics system
 
 Package: r-base-dev
 Architecture: all
-Version: 4.0.5.20210419-1
+Version: 4.0.5.20210426-1
 Priority: optional
 Section: gnu-r
 Source: r-base
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
 Installed-Size: 15
-Depends: r-base-core (>= 4.0.5.20210419-1), build-essential, gcc, g++, gfortran, libblas-dev | libatlas-base-dev, liblapack-dev | libatlas-base-dev, libncurses5-dev, libreadline-dev, libjpeg-dev, libpcre2-dev, libpcre3-dev, libpng-dev, zlib1g-dev, libbz2-dev, liblzma-dev, libicu-dev, xauth, pkg-config
+Depends: r-base-core (>= 4.0.5.20210426-1), build-essential, gcc, g++, gfortran, libblas-dev | libatlas-base-dev, liblapack-dev | libatlas-base-dev, libncurses5-dev, libreadline-dev, libjpeg-dev, libpcre2-dev, libpcre3-dev, libpng-dev, zlib1g-dev, libbz2-dev, liblzma-dev, libicu-dev, xauth, pkg-config
 Suggests: texlive-base, texlive-latex-base, texlive-plain-generic, texlive-fonts-recommended, texlive-fonts-extra, texlive-extra-utils, texlive-latex-recommended, texlive-latex-extra, texinfo
-Filename: ./r-base-dev_4.0.5.20210419-1_all.deb
-Size: 4480
-MD5sum: 051725eaaf80df3e451f4ed4c1100908
-SHA1: 8b4a0978c71d54fdecfe91e9ba33180e10b04ebe
-SHA256: e6be5299d3e126011f90525718f896f0f5109f43b6ef766629b8eb147cd1f65a
-SHA512: 80d94acca73ededaec2066e578f45380983f6904307af7878a76d8905e62e23be03bd1fd42dff47f3b6ae37ff1ed93fb2dc019bb9e5ca08dbbe2d5ac0ee5c523
+Filename: ./r-base-dev_4.0.5.20210426-1_all.deb
+Size: 4484
+MD5sum: 5622fd815d77d00cb0658021cc46870c
+SHA1: 2454379949524313fc22cfaa5ac2c295868ab5fd
+SHA256: 3defa7dc8a826c494f5c65cbb51f9237ef8820e2793967bca59c2de802310802
+SHA512: ff10e4e35054cfe705d95f7ed5aa3f4912fea045e44b24b3b8ef763766beb8b48a975776093473ac435e43973b453fc8b3b1be052b19871b4075eeaf1722f64c
 Homepage: http://www.r-project.org/
 Description: GNU R installation of auxiliary GNU R packages
  R is a system for statistical computation and graphics.  It consists
@@ -187,7 +187,7 @@ Description: GNU R installation of auxiliary GNU R packages
 
 Package: r-base-html
 Architecture: all
-Version: 4.0.5.20210419-1
+Version: 4.0.5.20210426-1
 Priority: optional
 Section: doc
 Source: r-base
@@ -196,12 +196,12 @@ Installed-Size: 567
 Depends: r-base-core
 Suggests: r-doc-html, mozilla | www-browser
 Replaces: r-base (<= 1.4.1-1), r-recommended (<< 1.9.0)
-Filename: ./r-base-html_4.0.5.20210419-1_all.deb
-Size: 91460
-MD5sum: cd4654747e7ba9f940ae87b93dd49d04
-SHA1: ca1894f5b77d55335ad5017b4c9d9d7adbc39cf7
-SHA256: b018cc88c842632543eaf2f677f66909cca7bb799dae86d744db63d8dc9e2834
-SHA512: 4a96546ad1aa15ec515148b1740abbcbd55015c2521209512e419584594ff1fc8db549ad7ffcac222861f6b4f27d3ab73c289b1db6f28dc2d96a258e263711c9
+Filename: ./r-base-html_4.0.5.20210426-1_all.deb
+Size: 91488
+MD5sum: 21c0041d2a4b4484aa8f7bc46cbd4269
+SHA1: b060c2e14634550ae98f552194ca993803efcbaa
+SHA256: da467dfe1a9bea79dcfbbcdce798276994264e071d4f4297a53f3f94b6fdc38f
+SHA512: 611bcf5cd9587b0d18ba2b8447a5415a3ae16788155d0e05bce95482c8ddfab97fd160f36858d13f99cd31ef7d4d4c1666df7b51924117e69c5c5c3d4691577c
 Homepage: http://www.r-project.org/
 Description: GNU R html docs for statistical computing system functions
  R is a system for statistical computation and graphics.  It consists
@@ -236,20 +236,20 @@ Description: GNU R html docs for statistical computing system functions
 
 Package: r-base
 Architecture: all
-Version: 4.0.5.20210419-1
+Version: 4.0.5.20210426-1
 Priority: optional
 Section: gnu-r
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
 Installed-Size: 63
-Depends: r-base-core (>= 4.0.5.20210419-1), r-recommended (= 4.0.5.20210419-1)
+Depends: r-base-core (>= 4.0.5.20210426-1), r-recommended (= 4.0.5.20210426-1)
 Recommends: r-base-html, r-doc-html
 Suggests: elpa-ess, r-doc-info | r-doc-pdf
-Filename: ./r-base_4.0.5.20210419-1_all.deb
-Size: 44364
-MD5sum: 13d98a145166f1febd9a814b6053ad10
-SHA1: 877646b8f5884c9f264351f2a748bc9c4e458355
-SHA256: bd5ef9c56b5adc4aa12c83f5160e87a8903bdb8af50700a9ee4410fd308a60a4
-SHA512: 19017bb9c303fc694c2a4c85267ceaeef44f5da025ddee30431cd848a23eb8a2aa8e81fcda500f53f7d33cccf58dcc0366d6d5e13c10550ca997f389d3c76493
+Filename: ./r-base_4.0.5.20210426-1_all.deb
+Size: 44388
+MD5sum: e9316e6b797310afe1df62e032fa5734
+SHA1: 65f2dcd42b6a61be934a4b601b9d807c5155cba0
+SHA256: c9598b6f130ff79dd8db7046b08f11a588c84b9ad7a4de091388802439ad15ad
+SHA512: 6fde8ae7c2416499e182c8684f19f8250e1d44936cff4c7e1918522308645a0d342bd3d6c2f7edc843127100f96c4cc4ef7816568a9b89f874d50924c4147c04
 Homepage: http://www.r-project.org/
 Description: GNU R statistical computation and graphics system
  R is a system for statistical computation and graphics.  It consists
@@ -1015,7 +1015,7 @@ Description: GNU R package for color maps from matplotlib (Lite Version)
 
 Package: r-doc-html
 Architecture: all
-Version: 4.0.5.20210419-1
+Version: 4.0.5.20210426-1
 Priority: optional
 Section: doc
 Source: r-base
@@ -1023,12 +1023,12 @@ Maintainer: Dirk Eddelbuettel <edd@debian.org>
 Installed-Size: 3075
 Suggests: r-base-core, mozilla | www-browser
 Replaces: r-base (<= 1.4.1-1)
-Filename: ./r-doc-html_4.0.5.20210419-1_all.deb
-Size: 578444
-MD5sum: 4b00d04ff25d7a3c7699be3c35a9f2cf
-SHA1: 82aac5ae64030601f2badee299b2ec977b7fc9c3
-SHA256: 85c68f7613e0f854d717b511830d0bc139c8972dc66183a1e68dad384523d73f
-SHA512: 90b49f1ed0faccff1d1e3348c5d3eb4be1c51a7f8de0fe6ae899ca86b74531db3bfbaddf85710e67b2a01ffe639dc88c954ecee443120211301f3fb10d4edead
+Filename: ./r-doc-html_4.0.5.20210426-1_all.deb
+Size: 578388
+MD5sum: 4fba47b0a61777e88ca664caf38e547b
+SHA1: 7797a657463323832df2cd6b88babf573d40175f
+SHA256: 243ddaa02877a0f48ec04c766a08328883643cb15c0ba9c7f2f92c1ed4f75e3a
+SHA512: 1fb458bb362779e2f5cf31680726163f8919a8e50583bbcf9484b3445c0501a85ea08732a7d62828331a5fa6383cfbeffbb7f3ee5bf71959cb13f49087292ee6
 Homepage: http://www.r-project.org/
 Description: GNU R html manuals for statistical computing system
  R is a system for statistical computation and graphics.  It consists
@@ -1061,7 +1061,7 @@ Description: GNU R html manuals for statistical computing system
 
 Package: r-doc-info
 Architecture: all
-Version: 4.0.5.20210419-1
+Version: 4.0.5.20210426-1
 Priority: optional
 Section: doc
 Source: r-base
@@ -1070,12 +1070,12 @@ Installed-Size: 651
 Depends: dpkg (>= 1.15.4) | install-info
 Suggests: r-base-core, info (>= 3.12) | info-browser
 Replaces: r-base (<= 1.4.1-1)
-Filename: ./r-doc-info_4.0.5.20210419-1_all.deb
-Size: 645116
-MD5sum: e9f7aac4532ee72bc18e439a01021271
-SHA1: fa5e9018a3bb2125c08144ffb8fb7f1a584f6fb0
-SHA256: 7139a6bde11b92c676d829abaedfec737687997292f7c47c0d8bdba11c176713
-SHA512: 7c17389642c6390361f5cdc37b49b5689d60e14f892dd66a44c840b3056d505fdc5d9e78bdf04f684f7c85ba8b985c405655ffb2b97dc9c64db112dcd1d31d24
+Filename: ./r-doc-info_4.0.5.20210426-1_all.deb
+Size: 645208
+MD5sum: 6db759d6cc3da09f6922518e727b685b
+SHA1: 12d36af6e5304990e1eacfb606e0ca15c0c4f440
+SHA256: 026a8e80e68373d9fedb401ae6d27a006f4187cbdc98bc05bb05d18affbdf857
+SHA512: 2bc146976aab0854d8de32319df2c65049213ecf42a81eca5696cab995a964c405bea35debd18ebfa93d53e181b8cdfd4611b6b32f2f01ffde570bcec8274e8b
 Homepage: http://www.r-project.org/
 Description: GNU R info manuals statistical computing system
  R is a system for statistical computation and graphics.  It consists
@@ -1108,19 +1108,19 @@ Description: GNU R info manuals statistical computing system
 
 Package: r-doc-pdf
 Architecture: all
-Version: 4.0.5.20210419-1
+Version: 4.0.5.20210426-1
 Priority: optional
 Section: doc
 Source: r-base
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
-Installed-Size: 16218
+Installed-Size: 16216
 Suggests: r-base-core, xdg-utils | pdf-viewer
-Filename: ./r-doc-pdf_4.0.5.20210419-1_all.deb
-Size: 9724376
-MD5sum: a431f9a664826a47f1e4460bda82bbb7
-SHA1: db2f6f44a10901f5126a573f0a7590a2b158427d
-SHA256: 7a3e836c42a11a48ec2c13338a022c291b357450d40dce59b599642ae918242d
-SHA512: beec435ecdb1a963cca0ad22c7dd6a0f25df941e6dc4a4b19936bf14af666a90003c3e59455a67ea33f342fd355e9faba6e4a5d4a0ce6b4eadcc75dd97114208
+Filename: ./r-doc-pdf_4.0.5.20210426-1_all.deb
+Size: 9722844
+MD5sum: 3f46dd9d0ee4f0488f9b865341d86b11
+SHA1: 580bfb987d9ea5b32549c50e9a96a985ae704dc9
+SHA256: 17e23e7be45f0390eed14dc43bc2b007659c23f5dff6afc26c630a0cccf8d8dc
+SHA512: 8f492e2e2dafa715af984252d25ab8b7af532cabd87e9bd419bb40b9e037b83a99a108e3163c647bb9504473b560c39aaa10208dd92be3d69b2068d6141f0f61
 Homepage: http://www.r-project.org/
 Description: GNU R pdf manuals for statistical computing system
  R is a system for statistical computation and graphics.  It consists
@@ -1153,20 +1153,20 @@ Description: GNU R pdf manuals for statistical computing system
 
 Package: r-mathlib
 Architecture: amd64
-Version: 4.0.5.20210419-1
+Version: 4.0.5.20210426-1
 Priority: optional
 Section: gnu-r
 Source: r-base
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
-Installed-Size: 2849
+Installed-Size: 2850
 Depends: libc6 (>= 2.29)
-Recommends: r-base-core (= 4.0.5.20210419-1), r-base-dev (= 4.0.5.20210419-1)
-Filename: ./r-mathlib_4.0.5.20210419-1_amd64.deb
-Size: 2204420
-MD5sum: a90931b96a3f7ea4f69decbbe3e07ef7
-SHA1: bda75f65a7c74e2d9824fb8e47f2a870e9b2d252
-SHA256: 92875db7fcef65998ffae2f91e1cedff3c1c523626f9154c19e89e0bba7ad1e0
-SHA512: 11bf06a67dc24473145c8fe05343c86b74aa8cb2162e0f2f46a650ca961eeab0133395a4d73b4d90c21acdbfe7c1ba4361278eeb52a9247f4ad06bba75c91e71
+Recommends: r-base-core (= 4.0.5.20210426-1), r-base-dev (= 4.0.5.20210426-1)
+Filename: ./r-mathlib_4.0.5.20210426-1_amd64.deb
+Size: 2205008
+MD5sum: b9cc5cb3f0b3d6a4ea41946e650f61ff
+SHA1: 5436d4a4d5056c0e47108d664b7df0a656756213
+SHA256: 194ca700dfe6463dcbac5cb0c63235348e8292ddf035a98bcabe201a648d36f5
+SHA512: ff564c98ca42077d43af4505496d02ef6d58a9e818871ded64dc38990526511746132ada5be1f4fe1c85c30d3584ad27572686de02d53648f03cd9f8088b61e7
 Homepage: http://www.r-project.org/
 Description: GNU R standalone mathematics library
  R is a system for statistical computation and graphics.  It consists
@@ -1199,19 +1199,19 @@ Description: GNU R standalone mathematics library
 
 Package: r-recommended
 Architecture: all
-Version: 4.0.5.20210419-1
+Version: 4.0.5.20210426-1
 Priority: optional
 Section: gnu-r
 Source: r-base
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
 Installed-Size: 13
-Depends: r-base-core (>= 4.0.5.20210419-1), r-cran-boot (>= 1.2.19), r-cran-cluster (>= 1.9.6-2), r-cran-foreign (>= 0.7-2), r-cran-kernsmooth (>= 2.2.14), r-cran-lattice (>= 0.10.11), r-cran-mgcv (>= 1.1.5), r-cran-nlme (>= 3.1.52), r-cran-rpart (>= 3.1.20), r-cran-survival (>= 2.13.2-1), r-cran-mass, r-cran-class, r-cran-nnet, r-cran-spatial, r-cran-codetools, r-cran-matrix
-Filename: ./r-recommended_4.0.5.20210419-1_all.deb
-Size: 2776
-MD5sum: c4f85b7b35460d882db39c404c85c230
-SHA1: d378b54a6f902bb180d6ed7d51e7148fcaf9074f
-SHA256: 96f4107cd27be162aa1ed3d3b3a419c50de8973571f1ca5d1385c174d7f65a3c
-SHA512: 2f01127c1587dec2a5f6a3465a3a891b2706842331ccf5f7265610505c09287b3b23ef94eaffbade3fe48e60e38e1fe754ccb9d35d866c791bd5d3e667e9c3a4
+Depends: r-base-core (>= 4.0.5.20210426-1), r-cran-boot (>= 1.2.19), r-cran-cluster (>= 1.9.6-2), r-cran-foreign (>= 0.7-2), r-cran-kernsmooth (>= 2.2.14), r-cran-lattice (>= 0.10.11), r-cran-mgcv (>= 1.1.5), r-cran-nlme (>= 3.1.52), r-cran-rpart (>= 3.1.20), r-cran-survival (>= 2.13.2-1), r-cran-mass, r-cran-class, r-cran-nnet, r-cran-spatial, r-cran-codetools, r-cran-matrix
+Filename: ./r-recommended_4.0.5.20210426-1_all.deb
+Size: 2772
+MD5sum: 7342ebb90e28d3a16d303e13905533b2
+SHA1: 1a5817162fa8ee1a56b2703d4670460c1a5c0d0f
+SHA256: 05892eefd7139b811fcac63eaa7d0f8dd3575ac59235137d407b9b92d24899d8
+SHA512: 57552012642604b6280413822f5e164318e9ccca440d7a6b469534a1e66a0e3590dacebf81b080a7639ccfc30f8d10e730639650a034dfdb1f231398c1d03aa1
 Homepage: http://www.r-project.org/
 Description: GNU R collection of recommended packages [metapackage]
  R is a system for statistical computation and graphics.  It consists
