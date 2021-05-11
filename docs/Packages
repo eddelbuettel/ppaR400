@@ -308,6 +308,50 @@ Description: GNU R package for bootstrapping functions from Davison and Hinkley
  This package is part of the set of packages that are 'recommended'
  by R Core and shipped with upstream source releases of R itself.
 
+Package: r-cran-boot
+Architecture: all
+Version: 1.3-28-1
+Priority: optional
+Section: gnu-r
+Source: boot
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 764
+Depends: r-base-core (>= 4.0.4-1), r-api-4.0
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-boot_1.3-28-1_all.deb
+Size: 624784
+MD5sum: 741a9a776325e075b5f7b73887ffc40f
+SHA1: a0aa82ce831434224b424f9a346067df38e127d9
+SHA256: bd44ab2490c2454ea8d6a4c6bc58475896396f2bc3fcbd9ea9596d7790677f48
+SHA512: 69973ff167aeaf5e4f42b583be245bb781886419c7e20179e256a001e32849bf579ee2ea2a5e23f5fc7f6d6706e95ca4c7f564e55286d5ee3848d87a0bd5d6be
+Homepage: https://cran.r-project.org/package=boot
+Description: GNU R package for bootstrapping functions from Davison and Hinkley
+ This package provides functions and datasets from the book "Bootstrap Methods
+ and Their Applications" by A. C. Davison and D. V. Hinkley (1997, CUP). It was
+ witten by Angelo Canty, and ported to R by Brian Ripley.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-class-dbgsym
+Architecture: amd64
+Version: 7.3-19-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: r-cran-class
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 25
+Depends: r-cran-class (= 7.3-19-1)
+Filename: ./r-cran-class-dbgsym_7.3-19-1_amd64.deb
+Size: 11400
+MD5sum: 7a2a6549287337d474b97d954e4263e1
+SHA1: 0232302d12e48fe8cfaf470d096a8e24606e698a
+SHA256: c4b8dc5d444711bbc6ea0a534a62c3738fa9c06975b4aac94580eba92e0b16c9
+SHA512: b8494bc4718d4accb1f57647960218b433421a892415a3d13d43ddacd92d6e9b9536cbd156bb04fbd16fff801ce3c30752cdc98ebc99426f03b6ffeb9295670d
+Description: debug symbols for r-cran-class
+Build-Ids: 68b3290dfde2760021c74118fb47e6c7cfb250e9
+
 Package: r-cran-class
 Architecture: amd64
 Version: 7.3-17-1.r400.1
@@ -323,6 +367,29 @@ MD5sum: 6808320e2f9cbb865bc84afd5682cd45
 SHA1: 4b6860371406f021110af5ef0841b16c32863b39
 SHA256: ba48d747a51989552d7e63f66d650626d717533ba29e1013827bf9df609212c9
 SHA512: d4799cb81eabd115ff5c3cb5fe363a7a180e08de2d1427b524fd99daed02821a66c4a9704d5f8e5da6706d714770a77f05ba0021cebb2bf484df825b8dbe9b13
+Homepage: https://cran.r-project.org/package=class
+Description: GNU R package for classification
+ The class package provides functions and datasets to support chapter
+ 12 on 'Classification' in the book 'Modern Applied Statistics with S'
+ (4th edition) by W.N. Venables and B.D. Ripley. The following URL
+ provides more details about the book:
+ URL: http://www.stats.ox.ac.uk/pub/MASS4
+
+Package: r-cran-class
+Architecture: amd64
+Version: 7.3-19-1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 159
+Depends: r-base-core (>= 4.0.4-1), r-api-4.0, r-cran-mass, libc6 (>= 2.4)
+Replaces: r-cran-vr (<< 7.3-0)
+Filename: ./r-cran-class_7.3-19-1_amd64.deb
+Size: 88216
+MD5sum: 557cce5711a6b2dc8a6dcbde746eb2c4
+SHA1: 4a57eb395d8e8dfd8acc531f3700a0aa1dda56e7
+SHA256: 56f0732481a7c0d9a98ab5f341ebb7d26542744d8b7b14fcabf6f7a0875cd552
+SHA512: 79a8ee0590e31cce49a4f385236d4dd65d4cac2971188c902f38e5c96f2705352266aa4eadb861525dde90e373c9672c7643f081806cdbda93e3d01bf1c1542b
 Homepage: https://cran.r-project.org/package=class
 Description: GNU R package for classification
  The class package provides functions and datasets to support chapter
@@ -420,6 +487,44 @@ Description: GNU R package providing code analysis tools
  This package is part of the set of packages that are 'recommended'
  by R Core and shipped with upstream source releases of R itself.
 
+Package: r-cran-ellipsis-dbgsym
+Architecture: amd64
+Version: 0.3.2-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: r-cran-ellipsis
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 21
+Depends: r-cran-ellipsis (= 0.3.2-1)
+Filename: ./r-cran-ellipsis-dbgsym_0.3.2-1_amd64.deb
+Size: 6444
+MD5sum: 0f3f9ece0aab1a5512a01b9be3b1a045
+SHA1: 683c40f4a2d5ab590f18c4c282a2e95f2d586e6a
+SHA256: 1b5bea435b6bca4d18ac2001bc79a78d23fb8b05a6a724d6002f3a342d502061
+SHA512: 7efcad615bab210fb8b63100e6c30072ba88d24169beb9d8da052b156d7c6dc03540ffa21f29bfdcf2e54e88586626537077ca31f0843eb88e9d9f513af5183d
+Description: debug symbols for r-cran-ellipsis
+Build-Ids: 88f0c446e6bd382c658b097dea82aed842830c5e
+
+Package: r-cran-ellipsis
+Architecture: amd64
+Version: 0.3.2-1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 81
+Depends: libc6 (>= 2.4), r-base-core (>= 4.0.4-1), r-api-4.0, r-cran-rlang (>= 0.3.0)
+Filename: ./r-cran-ellipsis_0.3.2-1_amd64.deb
+Size: 35056
+MD5sum: 7de52a1a0c1bc85ff4666c4c7745a2d6
+SHA1: 6b0644379a5c9ae918e62d6c0f25afff6f7c2f93
+SHA256: 7273f70ae4c56f37f447ca2879b9bce417f8c8bda6d3fdd676646be4fff17dde
+SHA512: 8b8ca2bb48486dcbdbdaaf540399319dee30a800dbe84e08168162d098cce4cf1c9fece87d980c9c5bbb62d2d51b84e9fd605681982cfaddc181711252c2f0de
+Homepage: https://cran.r-project.org/package=ellipsis
+Description: GNU R package for working with ... (variable arguments)
+ The package offers a generic method that warns when arguments passed via
+ the ... argument are silently ignored.
+
 Package: r-cran-foreign
 Architecture: amd64
 Version: 0.8.76-1.r400.1
@@ -482,6 +587,25 @@ Description: GNU R package to import/export SPSS, Stata and SAS files
  The goal of 'haven' is import foreign statistical formats into R via
  the embedded 'ReadStat' C library.
 
+Package: r-cran-kernsmooth-dbgsym
+Architecture: amd64
+Version: 2.23-20-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: kernsmooth
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 30
+Depends: r-cran-kernsmooth (= 2.23-20-1)
+Filename: ./r-cran-kernsmooth-dbgsym_2.23-20-1_amd64.deb
+Size: 16044
+MD5sum: c87ca5b7ee9d1b312b88367aeced6383
+SHA1: 66e20316fa8e2d886cee99bd651339de79130c35
+SHA256: aaba1351c6b300e680919a822511e9305bdd833ffef68e45e2bcb1bb2a149119
+SHA512: c674d4e27e7f4b449cf19f5dde0c6bc171e6c46d7cc39c26dbd93745fbafb3c7cf285a16d4784d28faa5a70eb5d8dd33fdf93259ed4213293c824f311459a9af
+Description: debug symbols for r-cran-kernsmooth
+Build-Ids: bc662d79356a27eed9d7cacb342ffe71e0e7b95f
+
 Package: r-cran-kernsmooth
 Architecture: amd64
 Version: 2.23-17-1.r400.1
@@ -508,6 +632,51 @@ Description: GNU R package for kernel smoothing and density estimation
  .
  URL: http://www.maths.unsw.edu.au/~wand
 
+Package: r-cran-kernsmooth
+Architecture: amd64
+Version: 2.23-20-1
+Priority: optional
+Section: gnu-r
+Source: kernsmooth
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 161
+Depends: r-base-core (>= 4.0.4-1), r-api-4.0, libblas3 | libblas.so.3, libc6 (>= 2.29), r-cran-mass
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-kernsmooth_2.23-20-1_amd64.deb
+Size: 91584
+MD5sum: 9f1871bcdf08aa3beaeaa1e72273a916
+SHA1: a8f564bf13a57116d87d3cd895d5019ff55ba36d
+SHA256: bd5c8ef33768d69dda29ed9109d9c81fd16f4c44b623a4c2e1f95237c00f8f98
+SHA512: ef19d6713ae16699b061845dcc4c6fce28fc2cd7d02105984861c017836fffc82d2b4df23c7925e0f9e1b5408357800f937b948a8f6f352f2d320729825dc090
+Homepage: https://cran.r-project.org/package=KernSmooth
+Description: GNU R package for kernel smoothing and density estimation
+ This package provides functions for kernel smoothing and density estimation
+ corresponding to M.P. Wand and M.C. Jones, "Kernel Smoothing", 1995.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+ .
+ URL: http://www.maths.unsw.edu.au/~wand
+
+Package: r-cran-lattice-dbgsym
+Architecture: amd64
+Version: 0.20-44-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lattice
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 25
+Depends: r-cran-lattice (= 0.20-44-1)
+Filename: ./r-cran-lattice-dbgsym_0.20-44-1_amd64.deb
+Size: 11152
+MD5sum: 359a85210bd95c94da4abfc48a235a82
+SHA1: b069619a556aae67623ef840cf7de61ef2a6fb64
+SHA256: 827df2e640ef74e8cc949e1515e38d25d91a7b48c3afe8d9c5095257014a4d08
+SHA512: 143e5b02c51dc6aca69ea4da70c5b445ffc172253daed80853e0b20832ff2116c24a1f586ef23a975493c886ffbd3e50a10133fcbd0b063f52114b45ddf87435
+Description: debug symbols for r-cran-lattice
+Build-Ids: 16d59a35c8772ec8574d25b079a3f8117ec04e3e
+
 Package: r-cran-lattice
 Architecture: amd64
 Version: 0.20-41-1.r400.1
@@ -524,6 +693,32 @@ MD5sum: a2aee3841ab2e8127bfc30de67e4961d
 SHA1: dfbadc845bd38956e45fcd16f6c1239316e66720
 SHA256: 8fc02b90c8acedd3648d0b1ee92b235d6b51fecc71cdbc53311f1a9197f945cb
 SHA512: a1b7fb066e351d54ca8f1adc89e85be1dceeed2aa4859537e454464945e29a638fb9c774078b7c8514a983af9398d4ee037eb18521166bbaf941a6a68f5b298f
+Homepage: https://cran.r-project.org/package=lattice
+Description: GNU R package for 'Trellis' graphics
+ This package provides functions for 'Trellis' graphics -- a framework
+ for data visualization developed at the Bell Labs by Rick Becker, Bill
+ Cleveland et al, extending ideas presented in Bill Cleveland's 1993 book
+ 'Visualizing Data'.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-lattice
+Architecture: amd64
+Version: 0.20-44-1
+Priority: optional
+Section: gnu-r
+Source: lattice
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 1379
+Depends: libc6 (>= 2.4), r-base-core (>= 4.0.4-1), r-api-4.0
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-lattice_0.20-44-1_amd64.deb
+Size: 1174884
+MD5sum: f45faacd5f658e0563a4242942c66f34
+SHA1: f510d80b52ad711a660b5abdb174356b065398b8
+SHA256: c1f73cc1b1e47670a94af8b7c032b81dae3348c5ce57229f95bb24a978524ce4
+SHA512: fd42d8c3f098d3300cffde177ad7cc4f3a8d164ff0c60447513c6e6e96964a44c686709d12f5f23d38881823a81aeb6068b0c361b3df45631542d7c89969639c
 Homepage: https://cran.r-project.org/package=lattice
 Description: GNU R package for 'Trellis' graphics
  This package provides functions for 'Trellis' graphics -- a framework
@@ -564,6 +759,25 @@ Description: GNU R scripting and command-line front-end
  standard Unix pipelines. In other words, r provides the R language without
  the environment.
 
+Package: r-cran-mass-dbgsym
+Architecture: amd64
+Version: 7.3-54-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: r-cran-mass
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 36
+Depends: r-cran-mass (= 7.3-54-1)
+Filename: ./r-cran-mass-dbgsym_7.3-54-1_amd64.deb
+Size: 21812
+MD5sum: f625bf16e7a1f5da9f4811ebe1dd9013
+SHA1: 271a543d9fd8aa8cc8ebbcfe7d1cac07ab93c0b8
+SHA256: aefe858723fa5869926a76e480db233034048dc3c0ee9291c565768a87751a5e
+SHA512: d32156537b1666a22317d10f05b1306513ab91e6067435be27b9c668c3ed242e8f75867df7c21b642d3aece7fa340df3fd4e39d8c7c2f3731a38a340f396e392
+Description: debug symbols for r-cran-mass
+Build-Ids: 167fd724f66fec6cfe573103782fe08b54f556db
+
 Package: r-cran-mass
 Architecture: amd64
 Version: 7.3-51.6-1.r400.1
@@ -588,6 +802,49 @@ Description: GNU R package of Venables and Ripley's MASS
  B.D. Ripley. The following URL provides more details about the book:
  URL: http://www.stats.ox.ac.uk/pub/MASS4
 
+Package: r-cran-mass
+Architecture: amd64
+Version: 7.3-54-1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 1403
+Provides: r-cran-vr
+Depends: r-base-core (>= 4.0.4-1), r-api-4.0, libc6 (>= 2.4)
+Conflicts: r-cran-vr
+Replaces: r-cran-vr
+Filename: ./r-cran-mass_7.3-54-1_amd64.deb
+Size: 1116932
+MD5sum: be19fe13f67ce4e8407b5ca6cca62259
+SHA1: b15ff97290840cd4064591d23dffb6ddadf1f945
+SHA256: c54f1f564d147c839bb2b7ead30edf219b828ff680c0d1ad87114705ce39fdbf
+SHA512: d9edbd3510e279b4612f886d26025f339377f85dbcc74219a50a6ee3448460111f246ad4cdcb96f4cfaf6795ae2a99bd7367395abbba9c6ccb6691276b1b6c80
+Homepage: https://cran.r-project.org/package=MASS
+Description: GNU R package of Venables and Ripley's MASS
+ The MASS package provides functions and datasets to support the book
+ 'Modern Applied Statistics with S' (4th edition) by W.N. Venables and
+ B.D. Ripley. The following URL provides more details about the book:
+ URL: http://www.stats.ox.ac.uk/pub/MASS4
+
+Package: r-cran-matrix-dbgsym
+Architecture: amd64
+Version: 1.3-3-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: rmatrix
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 890
+Depends: r-cran-matrix (= 1.3-3-1)
+Filename: ./r-cran-matrix-dbgsym_1.3-3-1_amd64.deb
+Size: 863272
+MD5sum: 8173eae37c567c5fb5118438c92c07a9
+SHA1: d298552c5f349c2366801332356e508e0e6d77c7
+SHA256: 51a8228cdb55cc86e18d29f8a64c1fe9ecc561a01db8068debd5e1eadfc35000
+SHA512: 4e9c3a14fd5fe3dac61d4350e0de6f061c5ec75b648660f6715bb15a0d1eec718c1f41379029b5e7798d8c2327ca13d436d73e52e8b668a1d5361d645b7fea40
+Description: debug symbols for r-cran-matrix
+Build-Ids: 59c167252dceb0d56cab1127f5e0e3871df5fdd0
+
 Package: r-cran-matrix
 Architecture: amd64
 Version: 1.2-18-1.r400.1
@@ -603,6 +860,28 @@ MD5sum: c7009ee9ab2f90bf17cff44323d4f79a
 SHA1: 40df7daa55971da038e81fac435cd66ea652fea8
 SHA256: cc03c0d3c6fd077c570d9f04d66cde23297f77177d1615fd231033af4ecd1933
 SHA512: 2e6584754a965beaea4454e3bb5dd904b59f86b1dbbd0ee93859b83a31a0eda6167a652c90af3b981a769201ed6d4ffff440da0d6d5fa334dc4ff602f9973fad
+Homepage: https://cran.r-project.org/package=Matrix
+Description: GNU R package of classes for dense and sparse matrices
+ This CRAN package provides S4 classes and methods for numerical
+ linear algebra using dense or sparse matrices.  The sparse matrix
+ implementation uses code from the LDL sparse matrix package and
+ code from the Metis package of partitioning algorithms.
+
+Package: r-cran-matrix
+Architecture: amd64
+Version: 1.3-3-1
+Priority: optional
+Section: gnu-r
+Source: rmatrix
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 6170
+Depends: libblas3 | libblas.so.3, libc6 (>= 2.29), liblapack3 | liblapack.so.3, r-base-core (>= 4.0.4-1), r-api-4.0, r-cran-lattice
+Filename: ./r-cran-matrix_1.3-3-1_amd64.deb
+Size: 3645512
+MD5sum: 74534be4a39c2f8497462ee2762935e5
+SHA1: 305969cea807dc5bb3c9fd57bb1d7931726479e3
+SHA256: 98c76eef698aa1a94407ec78925235cf2efe1dc13a0864ede04d4eaebdbc8ef4
+SHA512: 68ed678a1dcc173533ef93124697cc24127027fcafc8716e99e32f6a4954078d426104c1737bfb457121335aa78d5f68584957295d5c57548e4987e9db4749bf
 Homepage: https://cran.r-project.org/package=Matrix
 Description: GNU R package of classes for dense and sparse matrices
  This CRAN package provides S4 classes and methods for numerical
@@ -681,6 +960,26 @@ Description: GNU R package for multiple parameter smoothing estimation
  This package is part of the set of packages that are 'recommended'
  by R Core and shipped with upstream source releases of R itself.
 
+Package: r-cran-multcomp
+Architecture: all
+Version: 1.4-17-1
+Priority: optional
+Section: gnu-r
+Source: multcomp
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 1088
+Depends: r-base-core (>= 4.0.4-1), r-api-4.0, r-cran-mvtnorm (>= 1.0-10), r-cran-survival (>= 2.39-4), r-cran-th.data (>= 1.0-7-2), r-cran-sandwich (>= 2.3-0), r-cran-codetools
+Filename: ./r-cran-multcomp_1.4-17-1_all.deb
+Size: 700480
+MD5sum: c9a854b419b9fb3a1b902ddcafee8de8
+SHA1: 72923db376ac9755c5ff92f1aff79c9f4aeed7e0
+SHA256: 5dd72a15d9fd2f64ec416f58ec9d764c1658ae93464e4b2c16d484898d9e6a3a
+SHA512: 3f82bb4610cb69dc93fb4195858946fe3a999322b3b1df0d8f239620e502e10edfc1848f5dccda730db352bcbd598af29935ec97dd96fc69650afa621a17f52e
+Homepage: https://cran.r-project.org/package=multcomp
+Description: GNU R package for multiple comparison procedures
+ This package provides functions to perform multiple comparison tests and
+ simultaneous confidence intervals in one-way layout testing setups.
+
 Package: r-cran-nlme
 Architecture: amd64
 Version: 3.1.147-1.r400.1
@@ -705,6 +1004,25 @@ Description: GNU R package for (non-)linear mixed effects models
  This package is part of the set of packages that are 'recommended'
  by R Core and shipped with upstream source releases of R itself.
 
+Package: r-cran-nnet-dbgsym
+Architecture: amd64
+Version: 7.3-16-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: r-cran-nnet
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 30
+Depends: r-cran-nnet (= 7.3-16-1)
+Filename: ./r-cran-nnet-dbgsym_7.3-16-1_amd64.deb
+Size: 16284
+MD5sum: 9bd87d85f5d2d24480e32f523ff74ac1
+SHA1: ad89d9c27659279f763b9fd4c806233b49e3d49b
+SHA256: 9dc1dbe99d02108680161c3aa2f59c3e88f36a921241a006fe86a733b7f9c140
+SHA512: 80fad23d2ada5eff30f393fcb94096ed0419069f865a15c26be77a70b986b1ef14b9bb55aae0686c4db4bd0e9097cb93418a695b4c5da6449ece908139b3dd52
+Description: debug symbols for r-cran-nnet
+Build-Ids: ef26827bbc4214739ad031c84f8b93d987f5f8f4
+
 Package: r-cran-nnet
 Architecture: amd64
 Version: 7.3-14-1.r400.1
@@ -720,6 +1038,30 @@ MD5sum: 2b07aba233143691aaa6a59806b1c70e
 SHA1: 08f6e5c449f38eb3bd1eea59ca9ea1910607fc5f
 SHA256: 811bd3beca675ef2679ffb949be7c04217f40a2cced8ec8e688ed0125323b199
 SHA512: 0d2f19a00df2a43730dd5eb720a3ca228817caa954e77fc3c6055276979876f3c471040ec266d94002c505671d9ecf5fae083aafeb1051c67207ff42cabaf9f9
+Homepage: https://cran.r-project.org/package=nnet
+Description: GNU R package for feed-forward neural networks
+ The nnet package provides functions and datasets to support
+ feed-forward neural networks with a single hidden layer, and
+ multinomial log-linear models, as discussed in the book 'Modern
+ Applied Statistics with S' (4th edition) by W.N. Venables and
+ B.D. Ripley. The following URL provides more details about the book:
+ URL: http://www.stats.ox.ac.uk/pub/MASS4
+
+Package: r-cran-nnet
+Architecture: amd64
+Version: 7.3-16-1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 191
+Depends: r-base-core (>= 4.0.4-1), r-api-4.0, libc6 (>= 2.4)
+Replaces: r-cran-vr (<< 7.3-0)
+Filename: ./r-cran-nnet_7.3-16-1_amd64.deb
+Size: 111752
+MD5sum: ea1e011a15c078476a1051e724561ded
+SHA1: d3198cba30c2632d1b23b049b134ab84ad000a4c
+SHA256: 45b96da246509c91e223e1b28ea60257ffc615c6252fb572a5b5d45c348b4e37
+SHA512: a0f7e7e9ae3214906ba0d2681786b091cd276b4da72ed492878681c29f550a2d644033c512e874a19d9343123edbb0044d250772b722617feec79f410c3b5644
 Homepage: https://cran.r-project.org/package=nnet
 Description: GNU R package for feed-forward neural networks
  The nnet package provides functions and datasets to support
@@ -829,6 +1171,46 @@ Description: GNU R package for three-dimensional visualisation using OpenGL
  for visualisation of GNU R objects in three dimensions using the OpenGL
  libraries.
 
+Package: r-cran-rjava-dbgsym
+Architecture: amd64
+Version: 1.0-4-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: rjava
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 208
+Depends: r-cran-rjava (= 1.0-4-1)
+Filename: ./r-cran-rjava-dbgsym_1.0-4-1_amd64.deb
+Size: 171632
+MD5sum: 0a7db62ff9e36e6cb91162889e31c4c4
+SHA1: 6519fda862da52292bd4d8a37d5ce92e94ff9b4b
+SHA256: 0a01ccac9a67a38d8faa237d4fa2d997bbf6d9ea0f80b81c5fcfae8e53d3f0ed
+SHA512: 3a9f1115a26782a055b3f9dae0714fb469727291cb680cb01608dd5115c7d56cbda43f3f78a542fa40fbbb414719b0410806445ad28949a028ddce27337fb9c2
+Description: debug symbols for r-cran-rjava
+Build-Ids: 515a67424d6540b138ee2a28fa772f1e05e64cab 9723761dddeb7568ab28ed5e2e7b1872b29583b6
+
+Package: r-cran-rjava
+Architecture: amd64
+Version: 1.0-4-1
+Priority: optional
+Section: gnu-r
+Source: rjava
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 1864
+Depends: r-base-core (>= 4.0.4-1), r-api-4.0, openjdk-9-jre | default-jre, libc6 (>= 2.14)
+Filename: ./r-cran-rjava_1.0-4-1_amd64.deb
+Size: 697072
+MD5sum: 5c8947ab8ff47c34d227de11e0d770ec
+SHA1: f9be35d12f0ba2e47c1f4f4bf5cfbab7df679651
+SHA256: 36015795bbaa9896008ce96735ffba6c0d105a33ed25f1bc5d353ca2b17ba3ed
+SHA512: 92c27c07ea40e52d3e9bb831cf22c956d8f3c26971cc7de9e5413f0f60d558f1512ec353e56047c007612a40bfcadcf4c6dd4c343acb98ee078b581da315a672
+Homepage: https://cran.r-project.org/package=rJava
+Description: GNU R low-level interface to Java
+ This package provide a low-level interface from GNU R to Java VM very much
+ like .C/.Call and friends. Allows creation of objects, calling methods and
+ accessing fields.
+
 Package: r-cran-rpart
 Architecture: amd64
 Version: 4.1-15-2.r400.1
@@ -916,6 +1298,25 @@ Description: GNU R package providing skew-normal and skew-t distributions
  skew-t probability distributions, and for fitting them to data, in
  the scalar and in the multivariate case.
 
+Package: r-cran-spatial-dbgsym
+Architecture: amd64
+Version: 7.3-14-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: r-cran-spatial
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 38
+Depends: r-cran-spatial (= 7.3-14-1)
+Filename: ./r-cran-spatial-dbgsym_7.3-14-1_amd64.deb
+Size: 24380
+MD5sum: f54ebef3462b530a76d2bb2ebd594b1e
+SHA1: 72b5ddfb2aee10538c4e2e80144bb7b3aa263c41
+SHA256: 1e80873a13b55cf8fa87814e80260e3488a2a12514617b98d57facd36e54dc7a
+SHA512: dbe76ed3ef638c113d1e579da9815e6e0645be2e9bba8ca6c6f58231941016839276de04bc05ad3dc4e52e289a70045eca557743171ba649e7967be4b165442a
+Description: debug symbols for r-cran-spatial
+Build-Ids: fc1b8056d0464a54e383907324e5eeea452b29b7
+
 Package: r-cran-spatial
 Architecture: amd64
 Version: 7.3-12-1.r400.1
@@ -939,6 +1340,48 @@ Description: GNU R package for spatial statistics
  B.D. Ripley. The following URL provides more details about the book:
  URL: http://www.stats.ox.ac.uk/pub/MASS4
 
+Package: r-cran-spatial
+Architecture: amd64
+Version: 7.3-14-1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 238
+Depends: r-base-core (>= 4.0.4-1), r-api-4.0, libc6 (>= 2.4)
+Replaces: r-cran-vr (<< 7.3-0)
+Filename: ./r-cran-spatial_7.3-14-1_amd64.deb
+Size: 128676
+MD5sum: 746ada88d6dced6016d7e8eee7e11a92
+SHA1: d89f8b8a307e07b6512bcd7caca7b26711ece57b
+SHA256: b1d1b2c2b93b327b382f17dabc342b5958310b517288494f6e6f98442e649516
+SHA512: 3f86ff74c54bacee9320bb7de31d43469c3a4ad5166d1ffa52a44ea57505a1fb12d19fed36e6abe04b777fad8cc5f05a4582693be1a97c2046dba25bf92811e9
+Homepage: https://cran.r-project.org/package=spatial
+Description: GNU R package for spatial statistics
+ The spatial package provides functions and datasets to support
+ chapter 15 on 'Spatial Statistic' in the book 'Modern Applied
+ Statistics with S' (4th edition) by W.N. Venables and
+ B.D. Ripley. The following URL provides more details about the book:
+ URL: http://www.stats.ox.ac.uk/pub/MASS4
+
+Package: r-cran-survival-dbgsym
+Architecture: amd64
+Version: 3.2-11-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: survival
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 199
+Depends: r-cran-survival (= 3.2-11-1)
+Filename: ./r-cran-survival-dbgsym_3.2-11-1_amd64.deb
+Size: 184340
+MD5sum: af9a3003da067bcca1a71c5f0c5a885d
+SHA1: e3da8ddaa8d9cc219ee969ebb8e707b6c631e1d3
+SHA256: a5da9a217c6785859afc4c3560f5a06e1f12d62b1e934c36690238aec44e8f3e
+SHA512: 123963e718a04c06b502ce6f730a00f1733cd03a1a00645b3103e782fbcc5751b88945a4a9898863536fbe1d266f34ab331457d6ae4bacb92b123fb7661c9381
+Description: debug symbols for r-cran-survival
+Build-Ids: a27193870c0afeb5ba75f4cd182e2cce3503e7ac
+
 Package: r-cran-survival
 Architecture: amd64
 Version: 3.1-12-1.r400.1
@@ -955,6 +1398,32 @@ MD5sum: 015a4763ba7fe841725f0ce3d6be29ba
 SHA1: 239efe8e166aebe2590fa25784dacabadb4a48f8
 SHA256: 7853816518a22ef9a038065e3f9b358e499a1a3e2dc7e81ec682402dbd213658
 SHA512: 6fb5a58c9bc8b69f0b372293096cd8ffd6fd90cea9bc275f3ba621444ae1736eafddbb5493c6605b2a0324730bec9148e3f482f56fa8d16c67e3d064fa8371ce
+Homepage: https://cran.r-project.org/package=survival
+Description: GNU R package for survival analysis
+ This package provides functions and datasets for survival analysis:
+ descriptive statistics, two-sample tests, parametric accelerated failure
+ models, Cox model. Delayed entry (truncation) is allowed for all models;
+ interval censoring for parametric models.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-survival
+Architecture: amd64
+Version: 3.2-11-1
+Priority: optional
+Section: gnu-r
+Source: survival
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 7341
+Depends: r-base-core (>= 4.0.4-1), r-api-4.0, r-cran-matrix, libc6 (>= 2.4)
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-survival_3.2-11-1_amd64.deb
+Size: 6434904
+MD5sum: 8ac0268a6cccd927d1c5730fbfce5ddb
+SHA1: ad60a83599480f20bff86f8d3c670d7710f81517
+SHA256: f9c0372cf5345d37c18525ea74b89718772a1a4f095fe0699ccc1a4f0da21bfc
+SHA512: 0d9fa8e679398163cd33030f62ad5ab548e228d476403f5fd0d4704a65b03ac26ed7674003e3851f1bfd740f657a86f64b0c6b0d885b174d96866bc71f9c57e1
 Homepage: https://cran.r-project.org/package=survival
 Description: GNU R package for survival analysis
  This package provides functions and datasets for survival analysis:
