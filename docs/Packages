@@ -1474,30 +1474,6 @@ Description: GNU R package for survival analysis
 
 Package: r-cran-viridis
 Architecture: all
-Version: 0.6.0-1
-Priority: optional
-Section: gnu-r
-Maintainer: Dirk Eddelbuettel <edd@debian.org>
-Installed-Size: 3777
-Depends: r-base-core (>= 4.0.4-1), r-api-4.0, r-cran-viridislite (>= 0.4.0), r-cran-ggplot2 (>= 1.0.1), r-cran-gridextra
-Filename: ./r-cran-viridis_0.6.0-1_all.deb
-Size: 2929648
-MD5sum: f87c46b99c89539f4c0d713e73d6d215
-SHA1: 99e50eb8b121cfabcdd50bcd69cd602b3caf8a81
-SHA256: 0f7ae7880ed144810a8f7a88d5b768d2b612302c018f2512c8f5c0b6101234be
-SHA512: 455a546c6d96ba60e0bd838bf0f9883ae386d3c78bf6c7ba5a7290fe36bb05be8da3d34eb91817214cf781447e14f6069346bc255b1fd2a83d7f73f00355e67b
-Homepage: https://cran.r-project.org/package=viridis
-Description: GNU R package for color maps from matplotlib
- The viridis package provides a port of the new matplotlib color maps
- (viridis (default), magma, plasma and inferno) to R. matplotlib
- <http://matplotlib.org/ is a popular plotting library for
- Python. These color maps are designed in such a way that they will
- analytically be perfectly perceptually-uniform, both in regular form
- and also when converted to black-and-white. They are also designed to
- be perceived by readers with the most common form of color blindness.
-
-Package: r-cran-viridis
-Architecture: all
 Version: 0.6.1-1
 Priority: optional
 Section: gnu-r
