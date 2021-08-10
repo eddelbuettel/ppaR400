@@ -87,6 +87,52 @@ Description: GNU R debug symbols for statistical comp. language and environment
  libraries in the r-base-core package.
 Build-Ids: 11455f83344865f6a6e259b5c95a5d8ad71cb6b2 1fd21544913417f88faace1c314523856a6f7e02 289b38bbfcdd3ef01686a4854f4292a916c52968 2ff3416e512a7acd7bab629072148ac1c6539af3 32debb9693d4c5dd38acd016d8374738acd96e00 593ba81cbbf9e6ca6de934cae35fe1c843677685 5c2d58b798fa6cdbcd50dbf12e31a9357e862831 7565184cd52260790f20621f5cea27fe6e33782a 776ba5057853b2bcc8930b61a570cc2cdd8c82f2 9001f225acbd46a49be654a66141bd5d2033f94b 9182622991205d575cc8a6c4ab6fdaf2f020c545 9fbe04199a95cd3e356c3b0d8f5b8eec4f92420a ae815bb42662ce9875050b07175ddbef6c199f1a c000d04d3a76f18086ae8ced0a238ecc53ee2d13 ca35a742416111d7888f3159d3e8b26cc54cca74 dc7aa6d091423eb5a94f18dbc534c002adb73084 dc8999f89ef5a7be678bb028acebcfbb6d728b7e f5bc15a668d2eacac6eaf9f858c5efdbafd22dba f62e3d7113acb26570907506f7be9dd065a1ce1a
 
+Package: r-base-core-dbg
+Architecture: amd64
+Version: 4.1.1-1
+Priority: optional
+Section: debug
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 7204
+Depends: r-base-core (= 4.1.1-1), r-base-dev (= 4.1.1-1)
+Filename: ./r-base-core-dbg_4.1.1-1_amd64.deb
+Size: 6936332
+MD5sum: f5d1881cf02ce89d056fa53c43c4707f
+SHA1: ef9cb64ab05b2c2c764570aedb437622a44cab06
+SHA256: 841ef4788d865921497496b0ce8ab072b2678cf3573c940dc4764edf6b89d2f0
+SHA512: 66a3fdbac3e32119e1e5c509237d5d0506a5c146d9e9718040afb83928ccb89e792ef6044ac387d669c3c38b72937b4f2552dde8bc12461b5efbd1ce03a66db2
+Homepage: http://www.r-project.org/
+Description: GNU R debug symbols for statistical comp. language and environment
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This package contains debugging symbol tables for the binaries and dynamic
+ libraries in the r-base-core package.
+Build-Ids: 09e38fffcc9e67508c233b29e1662e2e272cf006 1725eab705b03ea0f239bdce43296283d5942e74 1801ced8905323520a6d85a0786aa698747be3ff 2a368371a3653b903db923d609b4f9523a6113b3 32debb9693d4c5dd38acd016d8374738acd96e00 3492f120e5885dd17f722aeb2ee55c8dd3f2919f 366e65cb830b95613ede2aac6c88b657475d004f 3b17feb326c97850e64477fa1c0284efb78d267e 4ddf8f6d434fb8baeab2754e00eebfc870b80c9b 4fd551c655f62310c69659d4e5d00eb1a9e0e8ab 5686d88c6d3fb22e5d38301ab5e3dab7cd4dbbe4 5c2d58b798fa6cdbcd50dbf12e31a9357e862831 6e214a545ef0e9ef318d12effb979b9a6da20b45 7b051ab2a47f231d1af02b81090e8f77e19dfb72 9fbe04199a95cd3e356c3b0d8f5b8eec4f92420a 9fe118bdc3540a7c8926bf98261a5375f09f04f9 c527900946666fe9f4abf26acc1af63ba9f2d5ba ef90fd9f1214aa676fd17e347315203377d30ac8 feae3a6d3df7986857a847f20de9d1ad663869b6
+
 Package: r-base-core
 Architecture: amd64
 Version: 4.1.0-1
@@ -139,6 +185,58 @@ Description: GNU R core of statistical computation and graphics system
  documentation packages r-base-html, r-doc-html, r-doc-pdf and r-doc-info
  have been split off to somewhat reduce the size of this package.
 
+Package: r-base-core
+Architecture: amd64
+Version: 4.1.1-1
+Priority: optional
+Section: gnu-r
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 40902
+Provides: r-api-4.0, r-base-latex, r-cran-rcompgen, r-gnome
+Depends: zip, unzip, libpaper-utils, xdg-utils, libblas3 | libblas.so.3, libbz2-1.0, libc6 (>= 2.29), libcairo2 (>= 1.6.0), libcurl4 (>= 7.28.0), libglib2.0-0 (>= 2.12.0), libgomp1 (>= 4.9), libicu67 (>= 67.1-1~), libjpeg62-turbo (>= 1.3.1), liblapack3 | liblapack.so.3, liblzma5 (>= 5.1.1alpha+20120614), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpcre2-8-0 (>= 10.22), libpng16-16 (>= 1.6.2-1), libreadline8 (>= 6.0), libtcl8.6 (>= 8.6.0), libtiff5 (>= 4.0.3), libtk8.6 (>= 8.6.0), libx11-6, libxt6, zlib1g (>= 1:1.1.4), ucf (>= 3.0), ca-certificates
+Recommends: r-recommended, r-base-dev, r-doc-html
+Suggests: elpa-ess, r-doc-info | r-doc-pdf, r-mathlib, r-base-html
+Conflicts: r-base-latex, r-cran-rcompgen, r-gnome
+Breaks: r-bioc-graph (<< 1.62.0-1~), r-cran-bbmle (<< 1.0.20-5~), r-cran-biocmanager (<< 1.30.4+dfsg-2~), r-cran-caret (<< 6.0-84-2~), r-cran-cmprsk (<< 2.2-8-1~), r-cran-coin (<< 1.3-0-1~), r-cran-dendextend (<< 1.12.0+dfsg-1~), r-cran-fields (<< 9.8-3-1~), r-cran-filehash (<< 2.4-2-2~), r-cran-future (<< 1.14.0+dfsg-1~), r-cran-genetics (<< 1.3.8.1.2-1~), r-cran-haplo.stats (<< 1.7.9-4~), r-cran-igraph (<< 1.2.4.1-1~), r-cran-lava (<< 1.6.5-1~), r-cran-libcoin (<< 1.0-4-1~), r-cran-msm (<< 1.6.7-1~), r-cran-permute (<< 0.9-5-1~), r-cran-phangorn (<< 2.5.5-1~), r-cran-popepi (<< 0.4.7-1~), r-cran-recipes (<< 0.1.6-1~), r-cran-sp (<< 1:1.3-1-2~), r-cran-spam (<< 2.2-2-1~), r-cran-units (<< 0.6-3-1~), r-cran-vegan (<< 2.5-5+dfsg-1~), r-cran-zelig (<< 5.1.6.1-1~)
+Replaces: r-base (<= 1.4.1-1), r-base-latex (<= 2.9.2-4), r-cran-rcompgen (<= 0.1-17-1), r-gnome (<= 2.3.1), r-recommended (<< 1.9.0)
+Filename: ./r-base-core_4.1.1-1_amd64.deb
+Size: 25847220
+MD5sum: 7547d4862ab128c4e25acf058700fac2
+SHA1: 6e0f96d74c90537ae35a402c1bafa4de27ce5c49
+SHA256: 88a8c8ec4da04910574c880da0656bd2ec43a562283d7667b7cc4645c0ba7874
+SHA512: 353079bc829873883852a5f4c1b76825a21a163ad5af60746e1bd650e2f78e1f71a98e96df506da0d7fea2e026cb1f2f3465faeaef0e53eb2c9823d115ec98da
+Homepage: http://www.r-project.org/
+Description: GNU R core of statistical computation and graphics system
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available
+ from CRAN, the Comprehensive R Archive Network, many also as Debian
+ packages, named 'r-cran-<name>'.
+ .
+ This package provides the core GNU R system from which only the optional
+ documentation packages r-base-html, r-doc-html, r-doc-pdf and r-doc-info
+ have been split off to somewhat reduce the size of this package.
+
 Package: r-base-dev
 Architecture: all
 Version: 4.1.0-1
@@ -155,6 +253,52 @@ MD5sum: 70dc2963a78ce9da937482dfd6b22eeb
 SHA1: f851ddc57b874b1511c8f6a76d5dd09f01efc95d
 SHA256: 151bf6a8b310473b2d4ede2a41dd6d594a27be926b6022e5dd761d15ed6e43b4
 SHA512: 2f6ae6b5128d44d7df65418d86b1131377c6208260809fa4dc60cbb0899b9ce2c4352e7e92b6848565ced3422fac9b64dd546a0f50c0c5cbe3d84a23ef54cc1d
+Homepage: http://www.r-project.org/
+Description: GNU R installation of auxiliary GNU R packages
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This package ensures that other Debian packages needed for installation of
+ some auxiliary R packages are installed.
+
+Package: r-base-dev
+Architecture: all
+Version: 4.1.1-1
+Priority: optional
+Section: gnu-r
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 15
+Depends: r-base-core (>= 4.1.1-1), build-essential, gcc, g++, gfortran, libblas-dev | libatlas-base-dev, liblapack-dev | libatlas-base-dev, libncurses5-dev, libreadline-dev, libjpeg-dev, libpcre2-dev, libpcre3-dev, libpng-dev, zlib1g-dev, libbz2-dev, liblzma-dev, libicu-dev, xauth, pkg-config
+Suggests: texlive-base, texlive-latex-base, texlive-plain-generic, texlive-fonts-recommended, texlive-fonts-extra, texlive-extra-utils, texlive-latex-recommended, texlive-latex-extra, texinfo
+Filename: ./r-base-dev_4.1.1-1_all.deb
+Size: 4484
+MD5sum: 1155aab10ada0240807874dc359be93f
+SHA1: 6d8bb5561f736d87298258a19b208124e18d5698
+SHA256: 467f802c2ada34ad04a1e243624926fbbf88d3b2ff66bf1ab14af178cde4674a
+SHA512: 0bf311c54947f43827ff71028bccce55b6043e9d008cb6948bcc22cc12ea3f35736f7b085bd612c877f424ed12e33641630fc0f469e89677e0d4e72692a9b615
 Homepage: http://www.r-project.org/
 Description: GNU R installation of auxiliary GNU R packages
  R is a system for statistical computation and graphics.  It consists
@@ -234,6 +378,55 @@ Description: GNU R html docs for statistical computing system functions
  a required package as the same documentation is already included for
  on-line browsing.
 
+Package: r-base-html
+Architecture: all
+Version: 4.1.1-1
+Priority: optional
+Section: doc
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 570
+Depends: r-base-core
+Suggests: r-doc-html, mozilla | www-browser
+Replaces: r-base (<= 1.4.1-1), r-recommended (<< 1.9.0)
+Filename: ./r-base-html_4.1.1-1_all.deb
+Size: 91668
+MD5sum: 51006ddb3ff30aacd5ebc2d2037ccfea
+SHA1: 82c65360d13149511ccdb36db2c33d86b545b7b7
+SHA256: b68e61c719ce0dccb3bc46d9d8a57fabd708924da51c1c0f749b6c8446d79bad
+SHA512: 6d4b0db5848c5f3a515e3b94c321cd761ad0574379309c7d6b667a467b7c877b1ff8695233420aee0c594e5181db0f04ef819cdbd8935e8c791c1234fe586e9f
+Homepage: http://www.r-project.org/
+Description: GNU R html docs for statistical computing system functions
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This package provides html documentation suitable for browsing with a
+ web-browser for the libraries included in the r-base package. It is not
+ a required package as the same documentation is already included for
+ on-line browsing.
+
 Package: r-base
 Architecture: all
 Version: 4.1.0-1
@@ -250,6 +443,55 @@ MD5sum: 4a6a3d76d6a2713c576412b1230054b3
 SHA1: ca6d1e217e605dbf3172c0b7563ac9005b5b8371
 SHA256: 3f32a292c5b8955c2627d5c330923361b3b6dcb5e21de82d1c968af5ec60c0b9
 SHA512: caf4036dfdfda4b8397ec0a700dd0a47217bdd2c746cdcda87083ea6890730e45316d48a9eb4943bdd3a0d8993e830ed4b7397c1bb571c2f6bdfebc1a7ec90a2
+Homepage: http://www.r-project.org/
+Description: GNU R statistical computation and graphics system
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This package is a metapackage which eases the transition from the
+ pre-1.5.0 package setup with its larger r-base package. Once installed, it
+ can be safely removed and apt-get will automatically upgrade its components
+ during future upgrades.  Providing this package gives a way to users to
+ then only install r-base-core if they so desire.
+
+Package: r-base
+Architecture: all
+Version: 4.1.1-1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 63
+Depends: r-base-core (>= 4.1.1-1), r-recommended (= 4.1.1-1)
+Recommends: r-base-html, r-doc-html
+Suggests: elpa-ess, r-doc-info | r-doc-pdf
+Filename: ./r-base_4.1.1-1_all.deb
+Size: 44536
+MD5sum: e8ac080a8413634c988f7d014469de9d
+SHA1: eb6d42a302e1a079ef8db0eb46d7993e2a2c6947
+SHA256: 88855374f4a2a531de013275aa61254fe9854701d12de44f45729ed914d93714
+SHA512: 39c497569db4fca145c6e4e753f3ff6680cd29da5f4e12c9b1e071352f9484da788c1ed574c7f04dfe016362b3fed76372f86bd110dfa0ba0cb1eb9a6fe86997
 Homepage: http://www.r-project.org/
 Description: GNU R statistical computation and graphics system
  R is a system for statistical computation and graphics.  It consists
@@ -1566,6 +1808,52 @@ Description: GNU R html manuals for statistical computing system
  This package provides the R manuals in html format. The sibling packages
  r-doc-pdf and r-doc-info provides the same manuals.
 
+Package: r-doc-html
+Architecture: all
+Version: 4.1.1-1
+Priority: optional
+Section: doc
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 3077
+Suggests: r-base-core, mozilla | www-browser
+Replaces: r-base (<= 1.4.1-1)
+Filename: ./r-doc-html_4.1.1-1_all.deb
+Size: 578900
+MD5sum: 62128f94574b7b4557fa8b81bf6ff221
+SHA1: d23f4b4116279d0a71d88c1a710f57b0bc01ba69
+SHA256: 6b88d0729676e1db8a59ba2d51bca1a75154218867193baf653cef606ca1fbb1
+SHA512: 6a5385ee2414223bb55d8afaf3e5433ad16736e5fc037183f689150182b494d57e63742bc0879fd9d5fa14ffce5c416da53edd6bdc99972b9e41e9ac2ad905b9
+Homepage: http://www.r-project.org/
+Description: GNU R html manuals for statistical computing system
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This package provides the R manuals in html format. The sibling packages
+ r-doc-pdf and r-doc-info provides the same manuals.
+
 Package: r-doc-info
 Architecture: all
 Version: 4.1.0-1
@@ -1613,6 +1901,53 @@ Description: GNU R info manuals statistical computing system
  This package provides the R manuals in info format. The sibling packages
  r-doc-html and r-doc-pdf provide the same manuals.
 
+Package: r-doc-info
+Architecture: all
+Version: 4.1.1-1
+Priority: optional
+Section: doc
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 649
+Depends: dpkg (>= 1.15.4) | install-info
+Suggests: r-base-core, info (>= 3.12) | info-browser
+Replaces: r-base (<= 1.4.1-1)
+Filename: ./r-doc-info_4.1.1-1_all.deb
+Size: 645308
+MD5sum: 2a6090e4572d71fc2a38b87304c60959
+SHA1: ca70998a968f4f9699264c1b607e09b4c414580f
+SHA256: 223050beb129956b6e6fd534833a417ef65c06b6616b3cc6f6880144271d388b
+SHA512: d7582ff77c4c49188c52b6dd555918b1ddbcb0b2295df90c4c0a3c4bc785e27a959362f5aa1d85205b46ba086bec4d5753d2a89927dd580100efd1346643f112
+Homepage: http://www.r-project.org/
+Description: GNU R info manuals statistical computing system
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This package provides the R manuals in info format. The sibling packages
+ r-doc-html and r-doc-pdf provide the same manuals.
+
 Package: r-doc-pdf
 Architecture: all
 Version: 4.1.0-1
@@ -1628,6 +1963,51 @@ MD5sum: 8a0b0ca8134371f2fb200f6581ebefeb
 SHA1: b91d39130c5ec92f405f747b4fa7c720064cc4a4
 SHA256: 7e945dce268a468bd9ac8089110736b09619cf14cc4ba1b5149e6668503897ee
 SHA512: fe20a10b4932cdc9c775e720308c54e1d7a768850ac4c0fb18fa02784167d6c251d744205ac11cf2323ce1be8526ff32b8614b1b0f89fed8387db2f4df4c86b7
+Homepage: http://www.r-project.org/
+Description: GNU R pdf manuals for statistical computing system
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This package provides the R manuals in pdf format. The sibling packages
+ r-doc-html and r-doc-info provides the same manuals.
+
+Package: r-doc-pdf
+Architecture: all
+Version: 4.1.1-1
+Priority: optional
+Section: doc
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 16222
+Suggests: r-base-core, xdg-utils | pdf-viewer
+Filename: ./r-doc-pdf_4.1.1-1_all.deb
+Size: 9729004
+MD5sum: df686d110c2428a4b58893f2d9127423
+SHA1: 1cd3aaaae3ce3f2c45db16e7a2d86d3e23d15bbf
+SHA256: 10ed6cb0c1abaea84bb4facb8a9587b4c27871e68429223af143b84c32215865
+SHA512: 8b5675c884f02754ccddff360a1d51aed825e47f76009611d581eec94e626ce59a2bdbdd382ab4aa6a63150122a4957fbb565cd3a9daf722e28b592d3bd30a3f
 Homepage: http://www.r-project.org/
 Description: GNU R pdf manuals for statistical computing system
  R is a system for statistical computation and graphics.  It consists
@@ -1704,6 +2084,52 @@ Description: GNU R standalone mathematics library
  This package provides the libRmath shared and static libraries which can
  be called from standalone C or C++ code.
 
+Package: r-mathlib
+Architecture: amd64
+Version: 4.1.1-1
+Priority: optional
+Section: gnu-r
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 2873
+Depends: libc6 (>= 2.29)
+Recommends: r-base-core (= 4.1.1-1), r-base-dev (= 4.1.1-1)
+Filename: ./r-mathlib_4.1.1-1_amd64.deb
+Size: 2222632
+MD5sum: d906ed222f2a0cc60ed99484cb03b2d6
+SHA1: f86dfd01a2e551dfb349f61e2b155b4c5f1e9d23
+SHA256: c14f56ed114c31900d83fc8f57da2a061bbe0a61001d538a349bec084b8f34cc
+SHA512: e4e3f7f970961f38f1428c2a8cc68d47ed32d44973b4584912afc9207940dd28555da2a42fee280f91d88b0bb0660c0f72e007aa34bda4f59660f1dbe521e728
+Homepage: http://www.r-project.org/
+Description: GNU R standalone mathematics library
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This package provides the libRmath shared and static libraries which can
+ be called from standalone C or C++ code.
+
 Package: r-recommended
 Architecture: all
 Version: 4.1.0-1
@@ -1719,6 +2145,69 @@ MD5sum: 69238e7cdd69de8e306d753c9f2fb283
 SHA1: 724e0a2cba1808b756d36686cadfc59c622fb069
 SHA256: 2546747ce56ec3d7af86570071af14dfbf86d4ad3387fe10bbd922a1d493b2a2
 SHA512: 39a675f29401e1eb20adbeffb07a2afab7604527a53bcff01023b84acc69c12dac5c079ef406042ab9629caa599dff15cf5165ce06669392dbd012af2bc4fa63
+Homepage: http://www.r-project.org/
+Description: GNU R collection of recommended packages [metapackage]
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This Debian package is now a metapackage that depends on a set of
+ packages that are recommended by the upstream R core team as part of a
+ complete R distribution, and distributed along with the source of R
+ itself, as well as directly via the CRAN network of mirrors. This set
+ comprises the following packages (listed in their upstream names):
+  - KernSmooth: Functions for kernel smoothing for Wand & Jones (1995)
+  - Matrix: Classes and methods for dense and sparse matrices and
+    operations on them using Lapack and SuiteSparse
+  - MASS, class, nnet and spatial: packages from Venables and Ripley,
+    `Modern Applied Statistics with S' (4th edition).
+  - boot: Bootstrap R (S-Plus) Functions from the book "Bootstrap Methods
+    and Their Applications" by A.C. Davison and D.V. Hinkley (1997).
+  - cluster: Functions for clustering (by Rousseeuw et al.)
+  - codetools: Code analysis tools for R
+  - foreign: Read data stored by Minitab, S, SAS, SPSS, Stata, ...
+  - lattice: Implementation of Trellis (R) graphics
+  - mgcv: Multiple smoothing parameter estimation and GAMs by GCV
+  - nlme: Linear and nonlinear mixed effects models
+  - rpart: Recursive partitioning and regression trees
+  - survival: Survival analysis, including penalised likelihood.
+
+Package: r-recommended
+Architecture: all
+Version: 4.1.1-1
+Priority: optional
+Section: gnu-r
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 13
+Depends: r-base-core (>= 4.1.1-1), r-cran-boot (>= 1.2.19), r-cran-cluster (>= 1.9.6-2), r-cran-foreign (>= 0.7-2), r-cran-kernsmooth (>= 2.2.14), r-cran-lattice (>= 0.10.11), r-cran-mgcv (>= 1.1.5), r-cran-nlme (>= 3.1.52), r-cran-rpart (>= 3.1.20), r-cran-survival (>= 2.13.2-1), r-cran-mass, r-cran-class, r-cran-nnet, r-cran-spatial, r-cran-codetools, r-cran-matrix
+Filename: ./r-recommended_4.1.1-1_all.deb
+Size: 2772
+MD5sum: 2a5873ea0655fd8d1f5599afc727934f
+SHA1: 98fb3b48ed051e843d2d0cfbb362d38d757ecf36
+SHA256: 01147eab159452b7c8d6d3a76c8cd3c8947980a21f0ea6a72c855cab180eb83f
+SHA512: 7675b6f320cfeac979f2326b01f88606b90c09c5ba5885792d9badcc5eb1dea6c9d837f27cff71766147c77314bbfd7ed3967dc8121911a72c43d1d5c0939ade
 Homepage: http://www.r-project.org/
 Description: GNU R collection of recommended packages [metapackage]
  R is a system for statistical computation and graphics.  It consists
